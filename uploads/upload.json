@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updatedAt": "2026-10-29T08:59:47Z",
+  "updatedAt": "2026-10-29T13:16:09Z",
   "items": [
     {
       "id": "m-agent-otter-pack",
@@ -25,7 +25,7 @@
       "sha256": "6ba20521fb7c66278f08808173bdfc885868dc861b53a69c3e38f37050c20474",
       "manifest": "uploads/otter-pack-v2/manifest.json",
       "source": "https://raw.githubusercontent.com/ducnhung70/M-Agent/main/uploads/otter-pack-v2/m-agent-otter-pack-v2.zip",
-      "publishPath": "uploads/otter-pack-v2/m-agent-otter-pack-v2.zip"
+      "publishPath": "releases/otter-pack-v2/m-agent-otter-pack-v2.zip"
     },
     {
       "id": "m-agent-release-mirror",
