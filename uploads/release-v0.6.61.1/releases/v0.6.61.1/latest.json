@@ -1,0 +1,19 @@
+{
+  "version": "0.6.61+1",
+  "notes": "## M-Agent v0.6.61.1\n\nAuthor : AnhNVT\n\n### Rái cá thú cưng\n\n- Thêm cài đặt lời nói trong Cài đặt › Giao diện:\n  - Rái cá nói bao lâu một lần: Tự động, Ngẫu nhiên, hoặc tự nhập số giây.\n  - Thời gian hiện bong bóng: Tự động, Ngẫu nhiên, hoặc tự nhập số giây.\n  - Nói khi tương tác: rái cá nói một câu ngắn khi được vuốt ve, thả tim, đạt mốc truy vấn, truy vấn chạy xong hoặc AI có gợi ý mới.\n  - Vẫn nói khi giảm hiệu ứng: khi Windows tắt hiệu ứng chuyển động, rái cá đứng yên nhưng vẫn nói.\n- Rái cá nói câu đầu tiên sớm hơn sau khi mở ứng dụng.\n- Khi bật \"Cho rái cá dùng AI\", mục Trạng thái AI cho biết đã lấy được bao nhiêu câu, hoặc lý do lỗi nếu lần gọi trước không thành công.\n- Nút \"Thử ngay\" gọi AI lấy câu mới ngay lập tức và cho rái cá nói câu đó.\n\n### Giao diện\n\n- Sửa lỗi đổi ảnh nền liên tiếp (ảnh A rồi ảnh B) nhưng ứng dụng vẫn hiện ảnh A.\n- Bấm Hủy sau khi chọn ảnh nền mới không còn làm mất ảnh nền đang dùng.\n\n### Giới hạn đã biết\n\n- Bản Web chưa tải được bộ hình rái cá nổi.\n- Không hỗ trợ Windows 7.\n- **Chữ ký Windows** — Chưa có chữ ký Authenticode tin cậy; Windows có thể hiển thị nhà phát hành chưa xác định. Chữ ký cập nhật được kiểm tra riêng.\n",
+  "pub_date": "2026-10-29T16:03:42Z",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY2V1cVhXaklMODZXV2tUZnB1dFQ4MEV1bmg1VFJZTnhEQVN3M3g5R1lackNOdnZUSW10MzB1NWtpV2lhUTFUdTBlbWpOQTYxdldsMGNaWXVUdUtPaFlBZnA0WnR5andnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMjg5NzY1CWZpbGU6TS1BZ2VudF8wLjYuNjErMV94NjQtc2V0dXAuZXhlClorRksyNS9sa3I5Njg5a2Vhc0NudEQzL1lnRU9NanBMc3kzRVFFWjlDbm5hU1Q2NEpxOVFlWjhYSGJrYXZYSDZ1U0tnemhNenoxS0FTNllRMjhQM0FRPT0K",
+      "url": "https://github.com/ducnhung70/M-Agent/releases/download/v0.6.61.1/M-Agent_0.6.61.1_x64-setup.exe"
+    },
+    "windows-x86_64-nsis": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY2V1cVhXaklMODZXV2tUZnB1dFQ4MEV1bmg1VFJZTnhEQVN3M3g5R1lackNOdnZUSW10MzB1NWtpV2lhUTFUdTBlbWpOQTYxdldsMGNaWXVUdUtPaFlBZnA0WnR5andnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMjg5NzY1CWZpbGU6TS1BZ2VudF8wLjYuNjErMV94NjQtc2V0dXAuZXhlClorRksyNS9sa3I5Njg5a2Vhc0NudEQzL1lnRU9NanBMc3kzRVFFWjlDbm5hU1Q2NEpxOVFlWjhYSGJrYXZYSDZ1U0tnemhNenoxS0FTNllRMjhQM0FRPT0K",
+      "url": "https://github.com/ducnhung70/M-Agent/releases/download/v0.6.61.1/M-Agent_0.6.61.1_x64-setup.exe"
+    },
+    "windows-x86_64-msi": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY2V1cVhXaklMODROY1cxQkYweHhTYmpGb2RnR3RoYzdkcnBiWFd6Q1prbllsRHNFa0FlOCtiTnRtQVVnSC9acGJ6eEFlNWFOOTNSay81MjRNckpLWndCc1J1blZHOVEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMjg5NzY1CWZpbGU6TS1BZ2VudF8wLjYuNjErMV94NjRfZW4tVVMubXNpCnl1ZFhMbnBCS2Rtc1ZZTlU1QU5iT2tYZVBUd3JSM0EzWlVyaWk4aTdYL01FRHFzc3ZsU1BLa3Z2NEkrWHRTemlSNlZCRmVnajJrUGdkQUw1bm8vRkF3PT0K",
+      "url": "https://github.com/ducnhung70/M-Agent/releases/download/v0.6.61.1/M-Agent_0.6.61.1_x64_en-US.msi"
+    }
+  }
+}
