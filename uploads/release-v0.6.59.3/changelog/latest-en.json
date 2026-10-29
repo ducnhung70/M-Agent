@@ -1,0 +1,19 @@
+{
+  "version": "0.6.59+3",
+  "notes": "## M-Agent v0.6.59.3\n\nAuthor : AnhNVT\n\n### Rái cá thú cưng\n\n- Rái cá nổi nhẹ hơn hẳn: hoạt ảnh gần như không còn tốn CPU (trước đây có thể chiếm tới một nửa nhân CPU khi rái cá đứng yên).\n- Bộ hình rái cá nổi có bản mới (khoảng 5,5 MB). Nếu đã tải bộ hình ở bản trước, vào Cài đặt › Giao diện và bấm Cập nhật.\n- Ảnh rái cá trong Cài đặt là ảnh tĩnh.\n\n### Màn hình chào\n\n- Logo trên màn hình chào trở lại ảnh tĩnh như trước để tiết kiệm CPU.\n\n### Trình soạn thảo\n\n- Sửa lỗi các dấu kết quả tìm kiếm trên thanh cuộn bên phải nằm lệch so với vị trí thật, nhất là khi bật xuống dòng tự động, khi thu gọn đoạn code hoặc ở cuối tài liệu.\n\n### Giới hạn đã biết\n\n- Bản Web chưa tải được bộ hình rái cá nổi.\n- Không hỗ trợ Windows 7.\n- **Chữ ký Windows** — Chưa có chữ ký Authenticode tin cậy; Windows có thể hiển thị nhà phát hành chưa xác định. Chữ ký cập nhật được kiểm tra riêng.\n",
+  "pub_date": "2026-10-29T08:58:10Z",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY2V1cVhXaklMODUyWm9Xa2JJOERyVmFwT0M2UGw4NGU5djZKSlJrUDFOQjlxNU9hMHQ2TVRVYkozQjZGZFVQNzFMbTZtS3h5bzJkTE1wVFBmN3JaSnMzcFFQb21DMVE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMjY0MjYzCWZpbGU6TS1BZ2VudF8wLjYuNTkrM194NjQtc2V0dXAuZXhlCjJUYkNjalNPSU5McTk2cHYyRks1TDVVdHg3Tm1USGhUcDVKdWRWUCs3ME1RaHE1UmR6eGVpMmZXR3BKWkdjVG1XdmVYbEs1MDdrNnNSSW9GNWhaY0FBPT0K",
+      "url": "https://github.com/ducnhung70/M-Agent/releases/download/v0.6.59.3/M-Agent_0.6.59.3_x64-setup.exe"
+    },
+    "windows-x86_64-nsis": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY2V1cVhXaklMODUyWm9Xa2JJOERyVmFwT0M2UGw4NGU5djZKSlJrUDFOQjlxNU9hMHQ2TVRVYkozQjZGZFVQNzFMbTZtS3h5bzJkTE1wVFBmN3JaSnMzcFFQb21DMVE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMjY0MjYzCWZpbGU6TS1BZ2VudF8wLjYuNTkrM194NjQtc2V0dXAuZXhlCjJUYkNjalNPSU5McTk2cHYyRks1TDVVdHg3Tm1USGhUcDVKdWRWUCs3ME1RaHE1UmR6eGVpMmZXR3BKWkdjVG1XdmVYbEs1MDdrNnNSSW9GNWhaY0FBPT0K",
+      "url": "https://github.com/ducnhung70/M-Agent/releases/download/v0.6.59.3/M-Agent_0.6.59.3_x64-setup.exe"
+    },
+    "windows-x86_64-msi": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY2V1cVhXaklMODU1dTNiNGFUTjZCMU9zUXlBSUJhbDRoRjIvMFZobExhV3NaZUk4NXFNQnpZNjFsNi9LblhRUFdnWnVWZHZKU0N3UzNFMW9aWDRLRkh5VGY4ckUwc0FFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMjY0MjY0CWZpbGU6TS1BZ2VudF8wLjYuNTkrM194NjRfZW4tVVMubXNpCnpuOFh4aTFnWDVyQkhOV2MyVi9sVXBPVUdUWmlrS3NRcU9CMGhqenAwbEE0OG1xNW1iNjlUaXczelVoSlBZZDNRY3Qwa2J5VlNrQzFHeVA1R0VPQUR3PT0K",
+      "url": "https://github.com/ducnhung70/M-Agent/releases/download/v0.6.59.3/M-Agent_0.6.59.3_x64_en-US.msi"
+    }
+  }
+}

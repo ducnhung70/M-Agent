@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updatedAt": "2026-10-29T07:24:57Z",
+  "updatedAt": "2026-10-29T08:59:47Z",
   "items": [
     {
       "id": "m-agent-otter-pack",
@@ -13,6 +13,19 @@
       "manifest": "uploads/otter-pack-v1/manifest.json",
       "source": "https://raw.githubusercontent.com/ducnhung70/M-Agent/main/uploads/otter-pack-v1/m-agent-otter-pack-v1.zip",
       "publishPath": "releases/otter-pack-v1/m-agent-otter-pack-v1.zip"
+    },
+    {
+      "id": "m-agent-otter-pack",
+      "kind": "otter-pack",
+      "version": 2,
+      "format": "webp",
+      "dir": "uploads/otter-pack-v2",
+      "file": "m-agent-otter-pack-v2.zip",
+      "size": 5543238,
+      "sha256": "6ba20521fb7c66278f08808173bdfc885868dc861b53a69c3e38f37050c20474",
+      "manifest": "uploads/otter-pack-v2/manifest.json",
+      "source": "https://raw.githubusercontent.com/ducnhung70/M-Agent/main/uploads/otter-pack-v2/m-agent-otter-pack-v2.zip",
+      "publishPath": "uploads/otter-pack-v2/m-agent-otter-pack-v2.zip"
     },
     {
       "id": "m-agent-release-mirror",
@@ -43,6 +56,39 @@
           "path": "changelog/releases-en.json",
           "size": 158560,
           "sha256": "937da3898a9d73d0aa39b3ab10a9bf1aad9d398eb86e1283c8d72086c5ef13f2",
+          "publishPath": "changelog/releases-en.json"
+        }
+      ]
+    },
+    {
+      "id": "m-agent-release-mirror",
+      "kind": "release-mirror",
+      "version": "0.6.59.3",
+      "dir": "uploads/release-v0.6.59.3",
+      "note": "Copy each file to m-market at publishPath (overwrite).",
+      "files": [
+        {
+          "path": "releases/latest/latest.json",
+          "size": 3030,
+          "sha256": "3171872b9c6c27e600a88bc612b4b3c5f25eee3618288d43770df0d4bad2241f",
+          "publishPath": "releases/latest/latest.json"
+        },
+        {
+          "path": "releases/v0.6.59.3/latest.json",
+          "size": 3030,
+          "sha256": "3171872b9c6c27e600a88bc612b4b3c5f25eee3618288d43770df0d4bad2241f",
+          "publishPath": "releases/v0.6.59.3/latest.json"
+        },
+        {
+          "path": "changelog/latest-en.json",
+          "size": 3030,
+          "sha256": "3171872b9c6c27e600a88bc612b4b3c5f25eee3618288d43770df0d4bad2241f",
+          "publishPath": "changelog/latest-en.json"
+        },
+        {
+          "path": "changelog/releases-en.json",
+          "size": 128832,
+          "sha256": "cfd1327eda1097cac503e9a3dca2767f8286c87dd3df00f52456106355db01bf",
           "publishPath": "changelog/releases-en.json"
         }
       ]
