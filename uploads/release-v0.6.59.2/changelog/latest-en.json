@@ -1,0 +1,19 @@
+{
+  "version": "0.6.59+2",
+  "notes": "## M-Agent v0.6.59.2\n\nAuthor : AnhNVT\n\n### Rái cá thú cưng\n\n- Rái cá có bộ hình mới với 23 hoạt ảnh: đứng yên, vẫy tay, ngó quanh, đi dạo, nói mẹo, ngủ, đọc schema, đang trả lời, hỏi bạn, chờ xác nhận, truy vấn nhanh, có kết quả, truy vấn lỗi, chạy và nhiều hoạt ảnh khác.\n- Mỗi sự kiện có hoạt ảnh riêng: AI đang trả lời, AI chờ bạn xác nhận hoặc trả lời câu hỏi, truy vấn xong nhanh, truy vấn lâu, truy vấn lỗi.\n- Bộ hình rái cá nổi được tải riêng trong Cài đặt › Giao diện (khoảng 3,4 MB), nên file cài đặt không bị nặng thêm. Có thể gỡ bộ hình bất cứ lúc nào. Khi chưa tải, nút AI vẫn nằm trên thanh công cụ.\n- Mới: cho phép rái cá dùng AI để tự nghĩ câu nói lúc rảnh, như thơ ngắn, câu đùa hoặc lời nhắc nghỉ ngơi. Có thể chọn giọng điệu: Tự do, Dễ thương, Hài hước hoặc Chuyên nghiệp. Mặc định tắt. AI chỉ nhận giọng điệu, ngôn ngữ và buổi trong ngày, không nhận SQL hay dữ liệu của bạn.\n\n### Màn hình chào\n\n- Logo trên màn hình chào là rái cá động: vẫy tay chào khi mở app rồi đứng thở nhẹ. Rê chuột vào để rái cá chào lại.\n\n### Giới hạn đã biết\n\n- Bản Web chưa tải được bộ hình rái cá nổi.\n- Không hỗ trợ Windows 7.\n- **Chữ ký Windows** — Chưa có chữ ký Authenticode tin cậy; Windows có thể hiển thị nhà phát hành chưa xác định. Chữ ký cập nhật được kiểm tra riêng.\n",
+  "pub_date": "2026-10-29T07:21:51Z",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY2V1cVhXaklMODJuWjY3OUtKZGpoSmdCYk9Hd0FjWkg2VWpLSmNPQUFjVjd4SStKbmRjVHN2STZrUXlVbXZmMTJOREJQdHZiVy9lWVRjMFVyelBhZ282Rmk3aGRxb1EwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMjU4NDU4CWZpbGU6TS1BZ2VudF8wLjYuNTkrMl94NjQtc2V0dXAuZXhlCmVmWDdUYzJrV1JWaUtBV0NKZ1kvdmlETHNVa1Z3VGdqQ3BEVUhIQ2lFMWk5c0Y1Z3FDaXNuS2hsRGJoWXN6alFSRTZzNFoxT1g0MDZSUnhQeDBISEN3PT0K",
+      "url": "https://github.com/ducnhung70/M-Agent/releases/download/v0.6.59.2/M-Agent_0.6.59.2_x64-setup.exe"
+    },
+    "windows-x86_64-nsis": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY2V1cVhXaklMODJuWjY3OUtKZGpoSmdCYk9Hd0FjWkg2VWpLSmNPQUFjVjd4SStKbmRjVHN2STZrUXlVbXZmMTJOREJQdHZiVy9lWVRjMFVyelBhZ282Rmk3aGRxb1EwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMjU4NDU4CWZpbGU6TS1BZ2VudF8wLjYuNTkrMl94NjQtc2V0dXAuZXhlCmVmWDdUYzJrV1JWaUtBV0NKZ1kvdmlETHNVa1Z3VGdqQ3BEVUhIQ2lFMWk5c0Y1Z3FDaXNuS2hsRGJoWXN6alFSRTZzNFoxT1g0MDZSUnhQeDBISEN3PT0K",
+      "url": "https://github.com/ducnhung70/M-Agent/releases/download/v0.6.59.2/M-Agent_0.6.59.2_x64-setup.exe"
+    },
+    "windows-x86_64-msi": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY2V1cVhXaklMOCs1bVpvcVdHR0FZM1ZlcjRPc2FoYWdPbE5lWDhPQjlaMHExUXZ4NFVBNzlUb0VvTjNhL1hCRFVlVW92czl3YndrWTZZWEYvTFRiRTV4Mm8xOHpGSWc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMjU4NDU4CWZpbGU6TS1BZ2VudF8wLjYuNTkrMl94NjRfZW4tVVMubXNpCmM4dWNvYlhVdTZtY0RUaFo5Vkt5S0tuQXExVzZVVnlpTDEyWitIZU5OUCtZQnlyYUxtQUh4bjlYejIrUnQ3aUZNamIxWUY1T1hDYlpOMVM4QSt3cERRPT0K",
+      "url": "https://github.com/ducnhung70/M-Agent/releases/download/v0.6.59.2/M-Agent_0.6.59.2_x64_en-US.msi"
+    }
+  }
+}
