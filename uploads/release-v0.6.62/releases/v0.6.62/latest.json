@@ -1,0 +1,19 @@
+{
+  "version": "0.6.62",
+  "notes": "## M-Agent v0.6.62\n\nAuthor : AnhNVT\n\n### Rái cá thú cưng\n\n- Rái cá quay mặt ngẫu nhiên và luôn đi tới phía trước khi dạo, không còn đi lùi.\n\n### Trình soạn thảo SQL\n\n- Gợi ý được làm mới sau khi chạy lệnh tạo, sửa, xóa đối tượng, giống hệt khi bấm Ctrl+Shift+D.\n- Hiện dấu đang chạy cho từng lệnh khi chạy một phần SQL được chọn.\n- Gợi ý bảng sau CROSS APPLY và OUTER APPLY chính xác hơn.\n- Gợi ý theo alias giữ đúng schema của bảng với kết nối JDBC.\n- Elasticsearch: tô màu và kiểm tra JSON bên trong các lệnh REST.\n\n### Kết nối\n\n- Trình chỉnh sửa tham số kết nối mới: tìm, lọc, xem mô tả và giá trị mặc định của từng tham số, hoặc sửa dạng văn bản thô.\n- SQLite qua SSH: lựa chọn giữ worker trên máy chủ (Persist, Preplaced) giờ có tác dụng.\n- Oracle: đọc được dữ liệu tiếng Trung cũ trong database US7ASCII; tùy chọn kết nối với quyền SYSDBA; đọc cột qua database link.\n- Không còn treo khi mở hoặc sửa kết nối Redis.\n- Các tùy chọn nâng cao trong hộp thoại kết nối được chia nhóm rõ ràng.\n\n### Kết quả truy vấn và lưới dữ liệu\n\n- Thống kê vùng chọn gọn hơn và nhớ chỉ số bạn chọn hiển thị trên thanh trạng thái.\n- Redis: nút \"Lấy thêm key\" quét thêm một lượt mà vẫn giữ các key đã có.\n- Trang đầu ít dòng hơn tổng số đã biết không còn bị coi là hết dữ liệu.\n\n### Cơ sở dữ liệu\n\n- MySQL: tùy chọn bỏ tên database khỏi tên bảng khi xuất; sinh dữ liệu đúng phân vùng đang có; nhập file SQL có SET NAMES utf8 cũ.\n- PostgreSQL: thông báo lỗi kèm mã SQLSTATE.\n- Dameng: sao chép bảng giữ đúng chữ hoa, chữ thường của tên bảng đích.\n- JDBC: truy vấn phân trang được commit thay vì rollback.\n\n### AI\n\n- Các yêu cầu duyệt công cụ của AI hiện ngay phía trên ô soạn tin nhắn.\n\n### Cập nhật\n\n- Khi không cập nhật được vì còn hộp thoại đang mở, ứng dụng cho biết đó là hộp thoại nào.\n\n### Giới hạn đã biết\n\n- Bản Web chưa tải được bộ hình rái cá nổi.\n- Không hỗ trợ Windows 7.\n- **Chữ ký Windows** — Chưa có chữ ký Authenticode tin cậy; Windows có thể hiển thị nhà phát hành chưa xác định. Chữ ký cập nhật được kiểm tra riêng.\n",
+  "pub_date": "2026-10-30T14:11:47Z",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY2V1cVhXaklMOCtjN2NPL1NtMTdFUm5zTE9PZktvbUY3dzVyWFh1Z2ZUZHIrM1dOZlRaNXpENVl0NnFXcXhvS00wY2h0Z1FzOGx4SDQyaW0xUXczdDFUN0d4WnZNU1FrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMzY5NDUzCWZpbGU6TS1BZ2VudF8wLjYuNjJfeDY0LXNldHVwLmV4ZQpDOU5ucjVUMEl5RE9TS1hiay9MSjR6UGFIL2s2SlE1ajd0OVdVTWEvY3lHTXYxcUdNZUNhaFpJUVcxbUpsL2tqOFVsbUk5L21sNWEzNnovekFkT1pCdz09Cg==",
+      "url": "https://github.com/ducnhung70/M-Agent/releases/download/v0.6.62/M-Agent_0.6.62_x64-setup.exe"
+    },
+    "windows-x86_64-nsis": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY2V1cVhXaklMOCtjN2NPL1NtMTdFUm5zTE9PZktvbUY3dzVyWFh1Z2ZUZHIrM1dOZlRaNXpENVl0NnFXcXhvS00wY2h0Z1FzOGx4SDQyaW0xUXczdDFUN0d4WnZNU1FrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMzY5NDUzCWZpbGU6TS1BZ2VudF8wLjYuNjJfeDY0LXNldHVwLmV4ZQpDOU5ucjVUMEl5RE9TS1hiay9MSjR6UGFIL2s2SlE1ajd0OVdVTWEvY3lHTXYxcUdNZUNhaFpJUVcxbUpsL2tqOFVsbUk5L21sNWEzNnovekFkT1pCdz09Cg==",
+      "url": "https://github.com/ducnhung70/M-Agent/releases/download/v0.6.62/M-Agent_0.6.62_x64-setup.exe"
+    },
+    "windows-x86_64-msi": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY2V1cVhXaklMODNpRTFmbFZtN0FjR2pJMFBBc1pIYUZodGFkUWJ4RHFzMkNKTXl0N3dRTzdkeVJ3d1FtWE9rTEtJYnBJNjUvL0QrcWZCamNFRE91RHFrL2ZHTmwwaHdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMzY5NDUzCWZpbGU6TS1BZ2VudF8wLjYuNjJfeDY0X2VuLVVTLm1zaQphNy8xdUl0TEpJK3YrSndPazZOaVpQa1VDaUFGYmlHdlh1M0dsKzgvMm9LbWVLVjlHUFg3bVduczlxUXB2c3VkWVBNT1FFY0lvOUIyM3A5Y0VBaDZCUT09Cg==",
+      "url": "https://github.com/ducnhung70/M-Agent/releases/download/v0.6.62/M-Agent_0.6.62_x64_en-US.msi"
+    }
+  }
+}
