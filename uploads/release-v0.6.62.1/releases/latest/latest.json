@@ -1,0 +1,19 @@
+{
+  "version": "0.6.62+1",
+  "notes": "## M-Agent v0.6.62.1\n\nAuthor : AnhNVT\n\n### Trợ lý AI\n\n- Gửi tin nhắn nhanh hơn: câu chào, cảm ơn được gửi ngay mà không kèm cấu trúc database; các câu khác chỉ gửi danh sách tên bảng, AI tự xem cột của bảng cần dùng.\n- Danh sách bảng được giữ lại giữa các tin nhắn và chỉ đọc lại khi cấu trúc database thay đổi (Ctrl+Shift+D, tạo/sửa/xóa đối tượng, làm mới cây bên trái).\n- Câu có @bảng, hoặc khi đang mở một bảng, vẫn gửi đầy đủ cột, index và khóa ngoại như trước.\n- AI hỏi lại bạn thay vì tự đoán khi có nhiều bảng hoặc cột tên gần giống nhau, khi chưa rõ khoảng thời gian, điều kiện lọc hay cách tính.\n- Bộ nhớ dài hạn: AI ghi nhớ sở thích của bạn và ý nghĩa của bảng, cột, mã giữa các cuộc trò chuyện. Có ba phạm vi: chung, theo kết nối, theo database. Mỗi điều được lưu thành một file trong thư mục dữ liệu của M-Agent (ai-memory), bạn có thể sửa hoặc xóa. Bật/tắt trong Cài đặt › AI.\n- Kết nối máy chủ MCP ngoài: trong Cài đặt › AI, khai báo các máy chủ MCP (cùng định dạng `mcpServers` của Claude Desktop), bấm Thử để xem danh sách công cụ. Ở chế độ Agent, AI dùng được các công cụ này; công cụ có thể thay đổi dữ liệu luôn chờ bạn duyệt trước khi chạy.\n\n### Giới hạn đã biết\n\n- Bộ nhớ dài hạn và máy chủ MCP ngoài chỉ có trên bản desktop, với AI tích hợp.\n- Máy chủ MCP ngoài hiện chỉ hỗ trợ kiểu chạy lệnh (stdio).\n- Bản Web chưa tải được bộ hình rái cá nổi.\n- Không hỗ trợ Windows 7.\n- **Chữ ký Windows** — Chưa có chữ ký Authenticode tin cậy; Windows có thể hiển thị nhà phát hành chưa xác định. Chữ ký cập nhật được kiểm tra riêng.\n",
+  "pub_date": "2026-10-31T13:20:35Z",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY2V1cVhXaklMOHhvT2FxYUExblpSTXNBT3BEQUJHSVJ1UXhKVU8zaDRvbHdHY0JQRHVpK3V0YUtYOFlxS0w3OTh2Uzk2eHJiUkFoTlRqVFJEcVlHV0FMbUF1ZlpVendZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNDUyNzkxCWZpbGU6TS1BZ2VudF8wLjYuNjIrMV94NjQtc2V0dXAuZXhlCnU2ZytGR3RGS0JLNmhha0Z0clRjaUdSSHArUzA4VmdNaWJPdkVtc092ZDJ2SUhQaVNuOVY5R0I5eWdIb1o0a3hjN2U2REdJRzc4Q0x3cFY3Z1Z6SkJBPT0K",
+      "url": "https://github.com/ducnhung70/M-Agent/releases/download/v0.6.62.1/M-Agent_0.6.62.1_x64-setup.exe"
+    },
+    "windows-x86_64-nsis": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY2V1cVhXaklMOHhvT2FxYUExblpSTXNBT3BEQUJHSVJ1UXhKVU8zaDRvbHdHY0JQRHVpK3V0YUtYOFlxS0w3OTh2Uzk2eHJiUkFoTlRqVFJEcVlHV0FMbUF1ZlpVendZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNDUyNzkxCWZpbGU6TS1BZ2VudF8wLjYuNjIrMV94NjQtc2V0dXAuZXhlCnU2ZytGR3RGS0JLNmhha0Z0clRjaUdSSHArUzA4VmdNaWJPdkVtc092ZDJ2SUhQaVNuOVY5R0I5eWdIb1o0a3hjN2U2REdJRzc4Q0x3cFY3Z1Z6SkJBPT0K",
+      "url": "https://github.com/ducnhung70/M-Agent/releases/download/v0.6.62.1/M-Agent_0.6.62.1_x64-setup.exe"
+    },
+    "windows-x86_64-msi": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY2V1cVhXaklMOC9xbUxDQUQ4NkowWFJ6U3UyNm5hbk1wbGs0UStWOG9lQS9ldHZYZHJUSWg5TTJYMkxuQ2hXTTdnZGNvTEZ6eE9TZUpOdVhWNnhQUFBpOEdRSS9HcndzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNDUyNzkxCWZpbGU6TS1BZ2VudF8wLjYuNjIrMV94NjRfZW4tVVMubXNpCk9henh4TWpuRHFJUjY3TjVRMzhseVRNTVdrQXdMV2RRTW9ORHZRSWNCazh4MUZNemlnT1RUU0lnNDY3QUdqSGsyUFdTSW96aWdMdmEvcjJXdExlMUNnPT0K",
+      "url": "https://github.com/ducnhung70/M-Agent/releases/download/v0.6.62.1/M-Agent_0.6.62.1_x64_en-US.msi"
+    }
+  }
+}
