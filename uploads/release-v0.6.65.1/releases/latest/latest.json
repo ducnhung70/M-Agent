@@ -1,0 +1,19 @@
+{
+  "version": "0.6.65+1",
+  "notes": "## M-Agent v0.6.65.1\n\nAuthor : AnhNVT\n\n### Trung tâm giao diện\n\n- Duyệt, cài, áp dụng, cập nhật và gỡ giao diện cho toàn ứng dụng từ m-market. Giao diện đã cài vẫn dùng được khi không có mạng.\n- Mở từ thanh công cụ hoặc menu Thêm.\n\n### Nền động của theme\n\n- Một số theme có nền động phía sau ứng dụng, bắt đầu với Honu Lagoon (tác giả Marko Vineli, @handsher_NGU) và các theme Pixel Worlds.\n- Nền nằm phía sau nội dung, không nhận chuột hay tiêu điểm, không ảnh hưởng việc gõ SQL. Nền tự dừng khi cửa sổ bị ẩn và đứng yên khi hệ thống bật giảm chuyển động.\n- Cài đặt › Giao diện: bật/tắt nền động, chỉnh độ hiển thị, tốc độ hoạt cảnh, giới hạn khung hình (15/24/30/60) và khôi phục mặc định. Thiết lập được giữ giữa các lần mở ứng dụng.\n- Khi theme có nền động, nền động được hiển thị thay cho ảnh nền. Ảnh nền của bạn vẫn được giữ và hiện lại khi tắt nền động.\n- Trong Trung tâm giao diện, trỏ chuột vào thẻ theme để xem trước nền động.\n- Nếu nền động không tải được, màu của theme vẫn dùng bình thường.\n\n### Sửa lỗi\n\n- Màu của giao diện tải từ m-market không còn bị mất khi đang dùng ảnh nền.\n- Trung tâm skill tải danh sách ngay khi mở; có thể mở từ thanh công cụ.\n\n### Giới hạn đã biết\n\n- Nền động tải từ m-market chỉ có trên bản desktop.\n- Không hỗ trợ Windows 7.\n- **Chữ ký Windows** — Chưa có chữ ký Authenticode tin cậy; Windows có thể hiển thị nhà phát hành chưa xác định. Chữ ký cập nhật được kiểm tra riêng.\n",
+  "pub_date": "2026-11-03T18:21:06Z",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY2V1cVhXaklMODVjNEcyNkVTRkZkc3NBUFFpMjhYSGdkZ0xLMEg3T3FiMEJ4ZGJRakFITzRNdmZYVFN2UWFWOHQ1ZStaalh1TFRQbklMYStpc0pFYzNoaWtXNktMYUEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNzI5OTk1CWZpbGU6TS1BZ2VudF8wLjYuNjUrMV94NjQtc2V0dXAuZXhlCmNFdE5lUTRTK0lYM0l1OW1DSXBxdVliUW5hL0VuckR2Y0hYRnNzUVNOU0pCNmQ0SXVuSCtobS96YW5IS2RDNmZnZkJZbSthM0doeFJ1M2JnM1dRL0R3PT0K",
+      "url": "https://github.com/ducnhung70/M-Agent/releases/download/v0.6.65.1/M-Agent_0.6.65.1_x64-setup.exe"
+    },
+    "windows-x86_64-nsis": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY2V1cVhXaklMODVjNEcyNkVTRkZkc3NBUFFpMjhYSGdkZ0xLMEg3T3FiMEJ4ZGJRakFITzRNdmZYVFN2UWFWOHQ1ZStaalh1TFRQbklMYStpc0pFYzNoaWtXNktMYUEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNzI5OTk1CWZpbGU6TS1BZ2VudF8wLjYuNjUrMV94NjQtc2V0dXAuZXhlCmNFdE5lUTRTK0lYM0l1OW1DSXBxdVliUW5hL0VuckR2Y0hYRnNzUVNOU0pCNmQ0SXVuSCtobS96YW5IS2RDNmZnZkJZbSthM0doeFJ1M2JnM1dRL0R3PT0K",
+      "url": "https://github.com/ducnhung70/M-Agent/releases/download/v0.6.65.1/M-Agent_0.6.65.1_x64-setup.exe"
+    },
+    "windows-x86_64-msi": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY2V1cVhXaklMODE4d0VYaHBhQnZPUUJ4TUlwWFJwaGN1UjlaQVRwK21JYVhLWE5Ha2prYkNsOStGbnN4ZHVlMlJZN2NPcmpwTlhzZGtSUWZpRXM2ZEhkZ2lJNHhiZ1FJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNzI5OTk1CWZpbGU6TS1BZ2VudF8wLjYuNjUrMV94NjRfZW4tVVMubXNpCjZ4bUZ5ZGJQWG9mYUw0TjVWbXc4dFhMOGFzczdaazYzUnlJYTZhMm9qaXZJWWhhSkxib2cvQzhNT245ZzE4VGtEeWh6eWpEYWh4c2k3c0VTVXdMR0RRPT0K",
+      "url": "https://github.com/ducnhung70/M-Agent/releases/download/v0.6.65.1/M-Agent_0.6.65.1_x64_en-US.msi"
+    }
+  }
+}
