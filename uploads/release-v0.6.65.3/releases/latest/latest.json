@@ -1,0 +1,19 @@
+{
+  "version": "0.6.65+3",
+  "notes": "## M-Agent v0.6.65.3\n\nAuthor : AnhNVT\n\n### Trung tâm thú cưng\n\n- Thêm Trung tâm thú cưng: chọn thú cưng nổi cho nút AI từ m-market. Bản này có 11 thú cưng: rái cá, mèo tam thể, thỏ, gấu trúc đỏ, shiba, capybara, cáo, nhím, koala, gấu trúc, chim cánh cụt.\n- Mở Trung tâm thú cưng từ menu \"Thêm\" trên thanh công cụ (có thể ghim lên thanh công cụ) hoặc từ Cài đặt › Giao diện › Nút AI.\n- Thú cưng đã cài dùng được khi không có mạng và chỉ cập nhật khi bạn bấm Cập nhật.\n- Nếu đã tải bộ ảnh động rái cá ở bản trước, rái cá được giữ nguyên, không phải tải lại.\n- Khi cho thú cưng dùng AI, câu nói lúc rảnh theo tên và tính cách của thú cưng đang dùng.\n\n### Cài đặt\n\n- Mục \"Rái cá nổi\" đổi thành \"Thú cưng nổi\". Ngay trong Cài đặt có thể chọn thú cưng đã cài, cài thú cưng đang chọn hoặc mở Trung tâm thú cưng.\n- Các tùy chọn bong bóng thoại, tần suất nói, giọng điệu và AI áp dụng cho mọi thú cưng. Cài đặt cũ được giữ nguyên.\n\n### Giới hạn đã biết\n\n- Trung tâm thú cưng chỉ có trên bản desktop. Cài thú cưng lần đầu cần kết nối tới m-market.\n- Không hỗ trợ Windows 7.\n- **Chữ ký Windows** — Chưa có chữ ký Authenticode tin cậy; Windows có thể hiển thị nhà phát hành chưa xác định. Chữ ký cập nhật được kiểm tra riêng.\n",
+  "pub_date": "2026-11-04T15:30:50Z",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY2V1cVhXaklMOC9OZWZUL1hWTTIrLzJEVWVVMGxXc2k2ckRHWTZKQlFDbzI3SGJGZ3QyZy96NTlpWWppbTVOMHY4OFg0SzI0QTJxYWIxbk9MUWNyd3FIenJtV1hJaEFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzODA2MjEyCWZpbGU6TS1BZ2VudF8wLjYuNjUrM194NjQtc2V0dXAuZXhlCjYyYVorOUwwaTI0d1MzbEgyeDZTTWFNaFpuY0k1b3MwbGNBMzVPVTd6SVU0YSs4K1NHTWptWjk0K1NGUXRCTDhQTjF5UW55WDVTSUZxUFJtQkFtQ0NnPT0K",
+      "url": "https://github.com/ducnhung70/M-Agent/releases/download/v0.6.65.3/M-Agent_0.6.65.3_x64-setup.exe"
+    },
+    "windows-x86_64-nsis": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY2V1cVhXaklMOC9OZWZUL1hWTTIrLzJEVWVVMGxXc2k2ckRHWTZKQlFDbzI3SGJGZ3QyZy96NTlpWWppbTVOMHY4OFg0SzI0QTJxYWIxbk9MUWNyd3FIenJtV1hJaEFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzODA2MjEyCWZpbGU6TS1BZ2VudF8wLjYuNjUrM194NjQtc2V0dXAuZXhlCjYyYVorOUwwaTI0d1MzbEgyeDZTTWFNaFpuY0k1b3MwbGNBMzVPVTd6SVU0YSs4K1NHTWptWjk0K1NGUXRCTDhQTjF5UW55WDVTSUZxUFJtQkFtQ0NnPT0K",
+      "url": "https://github.com/ducnhung70/M-Agent/releases/download/v0.6.65.3/M-Agent_0.6.65.3_x64-setup.exe"
+    },
+    "windows-x86_64-msi": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY2V1cVhXaklMODhkeEpKSU0zd2hpWTlTWW9yVHZ4OC9URFJ0NmxaSGk5VkJDeERwNHVBaTlXQjNVWmlHRUsvYjlRR01YNkJKY24vNllZVHVCVmlmejhoQlFYc3NFWmdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzODA2MjEyCWZpbGU6TS1BZ2VudF8wLjYuNjUrM194NjRfZW4tVVMubXNpCitHQXd6NkduUkVzM1hHNTdXc3hlVndVRmFObXdDMjhIOU42SEd6MnBXNWVZc1Zja1JXZnNhUVFkcGxYSXFOVVRRaDc0Q2NOcklRQUtHdGJSeXVyUUNnPT0K",
+      "url": "https://github.com/ducnhung70/M-Agent/releases/download/v0.6.65.3/M-Agent_0.6.65.3_x64_en-US.msi"
+    }
+  }
+}
