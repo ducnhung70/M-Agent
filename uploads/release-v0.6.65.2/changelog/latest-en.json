@@ -1,0 +1,19 @@
+{
+  "version": "0.6.65+2",
+  "notes": "## M-Agent v0.6.65.2\n\nAuthor : AnhNVT\n\n### Màu trình soạn SQL theo giao diện\n\n- Khi trình soạn SQL đang dùng \"Theo giao diện ứng dụng\" và bạn bật một giao diện từ Trung tâm giao diện, trình soạn SQL lấy màu từ giao diện đó (nền, chữ, từ khóa, chuỗi, chú thích, vùng chọn, số dòng).\n- Nếu bạn đã chọn riêng một theme cho trình soạn (Nord, Okaidia, ...), theme đó được giữ nguyên.\n- Màu chữ quá khó đọc trên nền được thay bằng màu mặc định để code luôn đọc được.\n- Xem trước tệp trong Mở nhanh cũng dùng cùng màu.\n\n### Thay đổi\n\n- Gỡ các nền động Pixel Worlds. Nền động Honu Lagoon vẫn giữ nguyên. Giao diện đang dùng nền Pixel Worlds vẫn giữ màu, chỉ không còn nền động.\n\n### Giới hạn đã biết\n\n- Nền động tải từ m-market chỉ có trên bản desktop.\n- Không hỗ trợ Windows 7.\n- **Chữ ký Windows** — Chưa có chữ ký Authenticode tin cậy; Windows có thể hiển thị nhà phát hành chưa xác định. Chữ ký cập nhật được kiểm tra riêng.\n",
+  "pub_date": "2026-11-04T04:35:00Z",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY2V1cVhXaklMODkrQmt2NTZ4QlY1bXdrUXZGaXV0eDUzSko0STFINkU4L054ZlRLYStoSnBVMDRuNU9GRnBVYmF5eTBMRXp3UlIzYUw1a0Jud1pjc1NrVk1BWUlPRmdBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNzY2ODgzCWZpbGU6TS1BZ2VudF8wLjYuNjUrMl94NjQtc2V0dXAuZXhlCmM5N0RJeVFDeGNqZ00xbi9qakNYRHlISXRhOC9XV1lIUkFpNXNiRk5mYU9RT0dCMElGNTE3Z1dGWi92dWw5OTk3ZXhUdytuTE5oK0cxVGJvWURzNkJnPT0K",
+      "url": "https://github.com/ducnhung70/M-Agent/releases/download/v0.6.65.2/M-Agent_0.6.65.2_x64-setup.exe"
+    },
+    "windows-x86_64-nsis": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY2V1cVhXaklMODkrQmt2NTZ4QlY1bXdrUXZGaXV0eDUzSko0STFINkU4L054ZlRLYStoSnBVMDRuNU9GRnBVYmF5eTBMRXp3UlIzYUw1a0Jud1pjc1NrVk1BWUlPRmdBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNzY2ODgzCWZpbGU6TS1BZ2VudF8wLjYuNjUrMl94NjQtc2V0dXAuZXhlCmM5N0RJeVFDeGNqZ00xbi9qakNYRHlISXRhOC9XV1lIUkFpNXNiRk5mYU9RT0dCMElGNTE3Z1dGWi92dWw5OTk3ZXhUdytuTE5oK0cxVGJvWURzNkJnPT0K",
+      "url": "https://github.com/ducnhung70/M-Agent/releases/download/v0.6.65.2/M-Agent_0.6.65.2_x64-setup.exe"
+    },
+    "windows-x86_64-msi": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY2V1cVhXaklMODRkZWNRSS9Lam9oYkxoU3JYN3lCM2s4OTBIaWJSbzVqMTEzclZ6clNzeHZJK0tTQmk5bGhpbitJaU5KVHVmSG1wTlNRUGwvR0lNeXFIUVkxQU9OdVFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNzY2ODgzCWZpbGU6TS1BZ2VudF8wLjYuNjUrMl94NjRfZW4tVVMubXNpCnJQRHdTMzA4OXB6NkFpRXFKYkxlc3RBZ3p0ZFk5WlNxa0plSnE2NTNjL2dkSlNDUjcwZlBQYi8yVS8zMkxaeW9aQ0lnMm5jZ0RUeVRwbEEwTytzQ0N3PT0K",
+      "url": "https://github.com/ducnhung70/M-Agent/releases/download/v0.6.65.2/M-Agent_0.6.65.2_x64_en-US.msi"
+    }
+  }
+}
