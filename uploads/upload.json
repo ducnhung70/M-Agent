@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updatedAt": "2026-11-04T04:35:55Z",
+  "updatedAt": "2026-11-04T07:49:05Z",
   "items": [
     {
       "id": "m-agent-otter-pack",
@@ -400,6 +400,30 @@
           "size": 225214,
           "sha256": "b51ca818fbbcbc14769ec320e79beecb0330d853c3b03a8f4663f11e7d2a05b1",
           "publishPath": "changelog/releases-en.json"
+        }
+      ]
+    },
+    {
+      "id": "m-agent.bravo.erp-studio",
+      "kind": "plugin",
+      "version": "0.7.19",
+      "target": "windows-x64",
+      "dir": "uploads/bravo-erp-studio-v0.7.19",
+      "note": "Copy each file to m-market at publishPath (overwrite).",
+      "files": [
+        {
+          "path": "m-agent.bravo.erp-studio-0.7.19-windows-x64.m_agentp",
+          "size": 1732335,
+          "sha256": "57b2434c52ad9a9501df67fe958deebf45b13403c0ebb94bf4eeaec688cdb50b",
+          "source": "https://raw.githubusercontent.com/ducnhung70/M-Agent/main/uploads/bravo-erp-studio-v0.7.19/m-agent.bravo.erp-studio-0.7.19-windows-x64.m_agentp",
+          "publishPath": "releases/plugins/m-agent.bravo.erp-studio/0.7.19/m-agent.bravo.erp-studio-0.7.19-windows-x64.m_agentp"
+        },
+        {
+          "path": "m-agent.bravo.erp-studio-0.7.19-windows-x64.artifact.json",
+          "size": 194,
+          "sha256": "ea8a7e596c54593f0ea283c209ac6d739406a5708b4cfae019410f4b5d2cea80",
+          "source": "https://raw.githubusercontent.com/ducnhung70/M-Agent/main/uploads/bravo-erp-studio-v0.7.19/m-agent.bravo.erp-studio-0.7.19-windows-x64.artifact.json",
+          "publishPath": "releases/plugins/m-agent.bravo.erp-studio/0.7.19/m-agent.bravo.erp-studio-0.7.19-windows-x64.artifact.json"
         }
       ]
     }
