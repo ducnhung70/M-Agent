@@ -1,12 +1,59 @@
 {
-  "updatedAt": "2026-11-05T18:12:14Z",
+  "updatedAt": "2026-11-05T18:15:13Z",
   "releases": [
     {
       "tag": "v0.6.66.1",
       "name": "M-Agent v0.6.66.1",
       "date": "2026-11-05",
-      "markdown": "# M-Agent v0.6.66.1\n\n## Cải tiến\n\n- Trợ lý AI hiển thị kế hoạch của tác vụ nhiều bước dưới dạng danh sách: bước chờ, bước đang làm và bước đã xong được đánh dấu riêng, cập nhật theo tiến độ.\n- Khi tìm đối tượng trong database, AI tìm thấy cả synonym (ví dụ các bảng nghiệp vụ Bravo như `B20Asset`, `B20Employee`) và biết synonym đó trỏ tới bảng nào.\n- Khi AI xem chi tiết bảng (chỉ mục, khóa ngoại, trigger, số dòng) hoặc lấy định nghĩa bảng qua synonym, M-Agent tự đọc trên bảng thật mà synonym trỏ tới.\n\n## Sửa lỗi\n\n- Sửa lỗi AI báo \"No objects match\" khi tìm bảng là synonym trong SQL Server.\n- Sửa lỗi tìm đối tượng và đếm số dòng không trả về kết quả khi chưa chọn schema trên SQL Server.\n- AI tìm được đối tượng khi gõ tên kèm schema hoặc dấu ngoặc, như `dbo.B20Asset` hoặc `[B20Asset]`.\n\n## Giới hạn đã biết\n\n- Công cụ AI của plugin dạng bảng làm việc (như Bravo ERP Studio) chưa được đưa vào trợ lý AI khi chat trên kết nối cơ sở dữ liệu.\n",
-      "sections": []
+      "markdown": "## Cải tiến\n\n- Trợ lý AI hiển thị kế hoạch của tác vụ nhiều bước dưới dạng danh sách: bước chờ, bước đang làm và bước đã xong được đánh dấu riêng, cập nhật theo tiến độ.\n- Khi tìm đối tượng trong database, AI tìm thấy cả synonym (ví dụ các bảng nghiệp vụ Bravo như `B20Asset`, `B20Employee`) và biết synonym đó trỏ tới bảng nào.\n- Khi AI xem chi tiết bảng (chỉ mục, khóa ngoại, trigger, số dòng) hoặc lấy định nghĩa bảng qua synonym, M-Agent tự đọc trên bảng thật mà synonym trỏ tới.\n\n## Sửa lỗi\n\n- Sửa lỗi AI báo \"No objects match\" khi tìm bảng là synonym trong SQL Server.\n- Sửa lỗi tìm đối tượng và đếm số dòng không trả về kết quả khi chưa chọn schema trên SQL Server.\n- AI tìm được đối tượng khi gõ tên kèm schema hoặc dấu ngoặc, như `dbo.B20Asset` hoặc `[B20Asset]`.\n\n## Giới hạn đã biết\n\n- Công cụ AI của plugin dạng bảng làm việc (như Bravo ERP Studio) chưa được đưa vào trợ lý AI khi chat trên kết nối cơ sở dữ liệu.\n",
+      "sections": [
+        {
+          "type": "other",
+          "title": "Cải tiến",
+          "items": [
+            {
+              "title": "Trợ lý AI hiển thị kế hoạch của tác vụ nhiều bước dưới dạng danh sách: bước chờ, bước đang làm và bước đã xong được đánh dấu riêng, cập nhật theo tiến độ.",
+              "desc": ""
+            },
+            {
+              "title": "Khi tìm đối tượng trong database, AI tìm thấy cả synonym (ví dụ các bảng nghiệp vụ Bravo như `B20Asset`, `B20Employee`) và biết synonym đó trỏ tới bảng nào.",
+              "desc": ""
+            },
+            {
+              "title": "Khi AI xem chi tiết bảng (chỉ mục, khóa ngoại, trigger, số dòng) hoặc lấy định nghĩa bảng qua synonym, M-Agent tự đọc trên bảng thật mà synonym trỏ tới.",
+              "desc": ""
+            }
+          ]
+        },
+        {
+          "type": "other",
+          "title": "Sửa lỗi",
+          "items": [
+            {
+              "title": "Sửa lỗi AI báo \"No objects match\" khi tìm bảng là synonym trong SQL Server.",
+              "desc": ""
+            },
+            {
+              "title": "Sửa lỗi tìm đối tượng và đếm số dòng không trả về kết quả khi chưa chọn schema trên SQL Server.",
+              "desc": ""
+            },
+            {
+              "title": "AI tìm được đối tượng khi gõ tên kèm schema hoặc dấu ngoặc, như `dbo.B20Asset` hoặc `[B20Asset]`.",
+              "desc": ""
+            }
+          ]
+        },
+        {
+          "type": "other",
+          "title": "Giới hạn đã biết",
+          "items": [
+            {
+              "title": "Công cụ AI của plugin dạng bảng làm việc (như Bravo ERP Studio) chưa được đưa vào trợ lý AI khi chat trên kết nối cơ sở dữ liệu.",
+              "desc": ""
+            }
+          ]
+        }
+      ]
     },
     {
       "tag": "v0.6.66",
