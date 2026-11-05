@@ -1,0 +1,19 @@
+{
+  "version": "0.6.65+4",
+  "notes": "## M-Agent v0.6.65.4\n\nAuthor : AnhNVT\n\n### Trò chuyện với AI\n\n- Thẻ công cụ và câu hỏi của AI hiện xen kẽ đúng thứ tự với câu trả lời, không còn dồn hết lên đầu tin nhắn.\n- Các bước AI đã chạy được gom thành một dòng \"Đã chạy N bước\", kèm số bước lỗi và thời gian. Bấm vào để mở hoặc đóng. Khi còn bước đang chạy, nhóm luôn mở.\n- Lịch sử trò chuyện không còn ghi \"Đang chạy\" sau khi lượt chạy đã xong.\n- Thêm vòng hiển thị ngữ cảnh bên trái ô chọn model: chuyển vàng từ 60%, đỏ từ 80%. Di chuột vào để xem số token đã dùng, và số token lấy từ cache nếu nhà cung cấp có báo.\n- Viết lại các câu tiếng Việt trong khung trò chuyện cho tự nhiên hơn.\n\n### Thú cưng\n\n- Thú cưng phản hồi ngay khi truy vấn chạy xong hoặc bị lỗi, không phải chờ giữa hai câu nói.\n- Thú cưng không chúc mừng khi lượt AI bị lỗi hoặc bị hủy.\n\n### Giới hạn đã biết\n\n- Không hỗ trợ Windows 7.\n- **Chữ ký Windows** — Chưa có chữ ký Authenticode tin cậy; Windows có thể hiển thị nhà phát hành chưa xác định. Chữ ký cập nhật được kiểm tra riêng.\n",
+  "pub_date": "2026-11-05T02:11:32Z",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY2V1cVhXaklMOHlaNEIxVm9oT29rMDg1MVJGbkhFT2RYZ3N5SDRsTnU2by9OMHpROGFOYk5HcGZFUWY5djRGS1VYV1FiN05mUTFQUVEraVM2ckdYZE84S0dsWGdoN2dBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzODQ0NjQ2CWZpbGU6TS1BZ2VudF8wLjYuNjUrNF94NjQtc2V0dXAuZXhlCjlUNjV4UE1ydWk3Mkt3Y2JrTGZkWE9NNENhbDdCSDJiOUNsNHIyLzVQcDhiT0s1b1JhZzRLdTdvTnl1WGJRa2V6SWpkam15TEhRclFpR24ySUdqOUJnPT0K",
+      "url": "https://github.com/ducnhung70/M-Agent/releases/download/v0.6.65.4/M-Agent_0.6.65.4_x64-setup.exe"
+    },
+    "windows-x86_64-nsis": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY2V1cVhXaklMOHlaNEIxVm9oT29rMDg1MVJGbkhFT2RYZ3N5SDRsTnU2by9OMHpROGFOYk5HcGZFUWY5djRGS1VYV1FiN05mUTFQUVEraVM2ckdYZE84S0dsWGdoN2dBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzODQ0NjQ2CWZpbGU6TS1BZ2VudF8wLjYuNjUrNF94NjQtc2V0dXAuZXhlCjlUNjV4UE1ydWk3Mkt3Y2JrTGZkWE9NNENhbDdCSDJiOUNsNHIyLzVQcDhiT0s1b1JhZzRLdTdvTnl1WGJRa2V6SWpkam15TEhRclFpR24ySUdqOUJnPT0K",
+      "url": "https://github.com/ducnhung70/M-Agent/releases/download/v0.6.65.4/M-Agent_0.6.65.4_x64-setup.exe"
+    },
+    "windows-x86_64-msi": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY2V1cVhXaklMOHd0Rm5qNlhlaFh5RWV5enZmdjhzVmN0RVEvNUkwNDM1WlNMVVZmSEVNdk5OMHRybDk0UUpuS2NzY3BNVkd1cC9IUFFYeVJKUHAySTNZa01JdWs4TkFnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzODQ0NjQ2CWZpbGU6TS1BZ2VudF8wLjYuNjUrNF94NjRfZW4tVVMubXNpCjBQSlFTaktSSGl2bVJIQjk0c0M2VTdGMEV3eUt1UE1nd2lxLzM2dUs4WndqVU8wbTUzMTZERDlDeVRweGczNzRZdkgvUm9sWkpqY3JrQ3dYMGNzOEN3PT0K",
+      "url": "https://github.com/ducnhung70/M-Agent/releases/download/v0.6.65.4/M-Agent_0.6.65.4_x64_en-US.msi"
+    }
+  }
+}
