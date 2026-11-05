@@ -1,0 +1,19 @@
+{
+  "version": "0.6.65+5",
+  "notes": "## M-Agent v0.6.65.5\n\nAuthor : AnhNVT\n\n### Trò chuyện với AI\n\n- Vòng hiển thị ngữ cảnh bên trái ô chọn model luôn hiện, kể cả với chat mới, cuộc trò chuyện mở lại và provider CLI. Khi chưa có số liệu từ lượt chạy, vòng hiện số ước tính từ các tin nhắn.\n- Nhóm \"Đã chạy N bước\" giữ nguyên trạng thái mở hoặc đóng bạn đã chọn, không còn tự mở rồi tự đóng mỗi khi AI gọi công cụ mới. Trong lúc chạy, dòng tiêu đề hiện tên công cụ đang chạy.\n\n### Trung tâm skill\n\n- Thêm nút \"Cập nhật tất cả\" ở tab Có cập nhật. Skill nào lỗi thì được bỏ qua và báo lại khi xong.\n- Nhận biết bản skill mới chính xác hơn theo phiên bản và mã kiểm tra mà m-market công bố.\n- Hiện phiên bản của skill, ví dụ v1.0.0, trên thẻ skill, tab Đã cài và phần xem trước. Khi có bản mới, thẻ ghi thêm phiên bản đang cài.\n\n### Bảo mật\n\n- Plugin được kiểm tra lại mỗi lần mở giao diện hoặc khởi động: file nào bị sửa sau khi cài so với bản đã ký thì plugin không được nạp, và ứng dụng báo cần cài lại hoặc cập nhật plugin.\n- Kết nối nội bộ giữa M-Agent và MCP server giờ cần mã xác thực riêng cho mỗi lần mở ứng dụng, nên chương trình khác trên máy không gọi được vào ứng dụng.\n\n### Giới hạn đã biết\n\n- Nếu bạn cài `m-agent-mcp-server` riêng qua npm, hãy cập nhật lên bản mới; bản cũ sẽ không xin xác nhận SQL từ ứng dụng được.\n- Không hỗ trợ Windows 7.\n- **Chữ ký Windows** — Chưa có chữ ký Authenticode tin cậy; Windows có thể hiển thị nhà phát hành chưa xác định. Chữ ký cập nhật được kiểm tra riêng.\n",
+  "pub_date": "2026-11-05T05:20:17Z",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY2V1cVhXaklMODdteUFHb3YwR3FYRUFWbFFvaW1qT0ZOU2VKajRIYUhRK0EvMjM5M09zRTJucUd0OEJUSno2UDM1RUJLdEg0cHUyNVJ6NGo1UmI5YkRFSk96TTdvbXdBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzODU1OTcyCWZpbGU6TS1BZ2VudF8wLjYuNjUrNV94NjQtc2V0dXAuZXhlCnZibWx6SWxMMlNMbVhMYmk5UVNPWGE3TGVMejNXRkJpRkpVM05ybGpRKzYxQURYRUVDdHAzQW1XSGpvbHhlTXdjVjdnZUpxUmx1ZHhWdXpmTTZRNUNBPT0K",
+      "url": "https://github.com/ducnhung70/M-Agent/releases/download/v0.6.65.5/M-Agent_0.6.65.5_x64-setup.exe"
+    },
+    "windows-x86_64-nsis": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY2V1cVhXaklMODdteUFHb3YwR3FYRUFWbFFvaW1qT0ZOU2VKajRIYUhRK0EvMjM5M09zRTJucUd0OEJUSno2UDM1RUJLdEg0cHUyNVJ6NGo1UmI5YkRFSk96TTdvbXdBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzODU1OTcyCWZpbGU6TS1BZ2VudF8wLjYuNjUrNV94NjQtc2V0dXAuZXhlCnZibWx6SWxMMlNMbVhMYmk5UVNPWGE3TGVMejNXRkJpRkpVM05ybGpRKzYxQURYRUVDdHAzQW1XSGpvbHhlTXdjVjdnZUpxUmx1ZHhWdXpmTTZRNUNBPT0K",
+      "url": "https://github.com/ducnhung70/M-Agent/releases/download/v0.6.65.5/M-Agent_0.6.65.5_x64-setup.exe"
+    },
+    "windows-x86_64-msi": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY2V1cVhXaklMOHgvU3MxelVXS3B4cFZheVl2RUQxVGc2RzNjd0hDNkhFa0NaS0VTN3ZSKzAzL1B1UHBINThVWDRMV0lkYlpxSFFpUU92Q3pTMTRxT1hKS01tVWx3b0FFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzODU1OTcyCWZpbGU6TS1BZ2VudF8wLjYuNjUrNV94NjRfZW4tVVMubXNpCnJzQkNHYU40RzFsZUo1VzNYeXZsSHVwaTQzUFR5TC9lVkNiWFJEN3hlRU9iOXFKazNUMVJLaDJrNDF6VkhRYTlWMVp0ZzlLQml1OWdEa2s5dis2a0N3PT0K",
+      "url": "https://github.com/ducnhung70/M-Agent/releases/download/v0.6.65.5/M-Agent_0.6.65.5_x64_en-US.msi"
+    }
+  }
+}
