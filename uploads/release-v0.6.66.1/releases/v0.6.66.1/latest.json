@@ -1,0 +1,19 @@
+{
+  "version": "0.6.66+1",
+  "notes": "# M-Agent v0.6.66.1\n\n## Cải tiến\n\n- Trợ lý AI hiển thị kế hoạch của tác vụ nhiều bước dưới dạng danh sách: bước chờ, bước đang làm và bước đã xong được đánh dấu riêng, cập nhật theo tiến độ.\n- Khi tìm đối tượng trong database, AI tìm thấy cả synonym (ví dụ các bảng nghiệp vụ Bravo như `B20Asset`, `B20Employee`) và biết synonym đó trỏ tới bảng nào.\n- Khi AI xem chi tiết bảng (chỉ mục, khóa ngoại, trigger, số dòng) hoặc lấy định nghĩa bảng qua synonym, M-Agent tự đọc trên bảng thật mà synonym trỏ tới.\n\n## Sửa lỗi\n\n- Sửa lỗi AI báo \"No objects match\" khi tìm bảng là synonym trong SQL Server.\n- Sửa lỗi tìm đối tượng và đếm số dòng không trả về kết quả khi chưa chọn schema trên SQL Server.\n- AI tìm được đối tượng khi gõ tên kèm schema hoặc dấu ngoặc, như `dbo.B20Asset` hoặc `[B20Asset]`.\n\n## Giới hạn đã biết\n\n- Công cụ AI của plugin dạng bảng làm việc (như Bravo ERP Studio) chưa được đưa vào trợ lý AI khi chat trên kết nối cơ sở dữ liệu.\n",
+  "pub_date": "2026-11-05T18:10:45Z",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY2V1cVhXaklMODhQQjBWTWx1ZWw0cmRQZStjc1l0Rkg3RGh2Z2hqaWhuVVVvdHpxRGlwcVh2TUdUUE1nVjc5NHljM0I2KzdLMVRjdTdKR0x5b2FKWngrVHI4RGNlUUFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzOTAyMjE4CWZpbGU6TS1BZ2VudF8wLjYuNjYrMV94NjQtc2V0dXAuZXhlCkcwWDB0MXl1YkoxMDdnSmVNNThLOEJ2TE1Bak5jTWV3R3ROamRwbzM1MVE5V3daL2w4cDg0Q0lkMTNFMHBPMVMrK1JmdmVlai8xbUd3ckFTZHYvekFBPT0K",
+      "url": "https://github.com/ducnhung70/M-Agent/releases/download/v0.6.66.1/M-Agent_0.6.66.1_x64-setup.exe"
+    },
+    "windows-x86_64-nsis": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY2V1cVhXaklMODhQQjBWTWx1ZWw0cmRQZStjc1l0Rkg3RGh2Z2hqaWhuVVVvdHpxRGlwcVh2TUdUUE1nVjc5NHljM0I2KzdLMVRjdTdKR0x5b2FKWngrVHI4RGNlUUFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzOTAyMjE4CWZpbGU6TS1BZ2VudF8wLjYuNjYrMV94NjQtc2V0dXAuZXhlCkcwWDB0MXl1YkoxMDdnSmVNNThLOEJ2TE1Bak5jTWV3R3ROamRwbzM1MVE5V3daL2w4cDg0Q0lkMTNFMHBPMVMrK1JmdmVlai8xbUd3ckFTZHYvekFBPT0K",
+      "url": "https://github.com/ducnhung70/M-Agent/releases/download/v0.6.66.1/M-Agent_0.6.66.1_x64-setup.exe"
+    },
+    "windows-x86_64-msi": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY2V1cVhXaklMODUxZVJwa0p2T3lBNFJ0RndrSU9VVnlMNmJZakI3eVVXN1FZUm5FMFJJdGkycUxSdzljZXdsY294YUtkSFIrbERMYWZBci81REt4YXJjOEcrZXhXU3d3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzOTAyMjE4CWZpbGU6TS1BZ2VudF8wLjYuNjYrMV94NjRfZW4tVVMubXNpCnNhOEFwQm8vVnNlMVhlWDBYUVdVQjYwckhuQ05KRnJxK1V0R1RzNmlnRjZLd2R4azRzcXZkeWpqbkFjS3o0eHVHU1Q1NFo4UE4rMk1WZGlKS1pCZEJ3PT0K",
+      "url": "https://github.com/ducnhung70/M-Agent/releases/download/v0.6.66.1/M-Agent_0.6.66.1_x64_en-US.msi"
+    }
+  }
+}
