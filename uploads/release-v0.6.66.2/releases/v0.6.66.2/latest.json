@@ -1,0 +1,19 @@
+{
+  "version": "0.6.66+2",
+  "notes": "# M-Agent v0.6.66.2\n\n## Cải tiến\n\n- Trợ lý AI dùng được công cụ của plugin không cần kết nối, như Bravo ERP Studio (kiểm tra XML, mô tả control, đọc và so sánh Layout).\n- Nếu plugin chưa chạy, AI hỏi bạn trước khi khởi động plugin. Bạn cho phép thì công cụ của plugin có ngay trong lượt chat đó.\n- Khi AI đang chạy tác vụ nhiều bước, kế hoạch hiện ngay dưới dòng trạng thái, có thể thu gọn hoặc mở ra. Khi thu gọn vẫn thấy bước đang làm.\n- AI chủ động ghi nhớ dài hạn: sở thích của bạn, các lần bạn sửa cách làm, ý nghĩa nghiệp vụ của bảng, cột, mã và các thông tin về dự án.\n- Cuối câu trả lời hiện dòng \"Đã ghi nhớ\" khi AI vừa lưu điều gì đó vào bộ nhớ.\n\n## Sửa lỗi\n\n- Sửa lỗi AI không theo quy tắc ngôn ngữ bạn đặt trong cài đặt AI và trả lời sai ngôn ngữ, ví dụ trả lời tiếng Trung khi bạn yêu cầu tiếng Việt. Khi dùng giao diện tiếng Việt, AI mặc định trả lời bằng tiếng Việt.\n",
+  "pub_date": "2026-11-06T05:47:29Z",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY2V1cVhXaklMOHlMbXo4MVdpMk9KaGpyOFdzTG5mWlNUNXZ1YWQxSlFLbmVlYld6czJUZE8wdS9jWitRNWx2RGo5cVdEdm16U0pvZ2NrMzRQaitkSFl0T0NmczQ3b2dVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzOTQ0MDMxCWZpbGU6TS1BZ2VudF8wLjYuNjYrMl94NjQtc2V0dXAuZXhlCnNra05jeEN2ZEpRVXlKMnRSandjcmFwWFlWK2xoZ1hwbjRTclkvLzRDQjJTVUhEVnFWaTJINUtCdDNHZWtWUzdwYWh4VG5adVRxWThxVURXTjVaRER3PT0K",
+      "url": "https://github.com/ducnhung70/M-Agent/releases/download/v0.6.66.2/M-Agent_0.6.66.2_x64-setup.exe"
+    },
+    "windows-x86_64-nsis": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY2V1cVhXaklMOHlMbXo4MVdpMk9KaGpyOFdzTG5mWlNUNXZ1YWQxSlFLbmVlYld6czJUZE8wdS9jWitRNWx2RGo5cVdEdm16U0pvZ2NrMzRQaitkSFl0T0NmczQ3b2dVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzOTQ0MDMxCWZpbGU6TS1BZ2VudF8wLjYuNjYrMl94NjQtc2V0dXAuZXhlCnNra05jeEN2ZEpRVXlKMnRSandjcmFwWFlWK2xoZ1hwbjRTclkvLzRDQjJTVUhEVnFWaTJINUtCdDNHZWtWUzdwYWh4VG5adVRxWThxVURXTjVaRER3PT0K",
+      "url": "https://github.com/ducnhung70/M-Agent/releases/download/v0.6.66.2/M-Agent_0.6.66.2_x64-setup.exe"
+    },
+    "windows-x86_64-msi": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY2V1cVhXaklMODE0YnpOa2xYOUpjZ3czSWdNWmhwOEhkZGFPSXdkYkVDZDZ3UlFId2tkVkUydnAwTHNpY1BkR2JhQUNndTdNYnlQSi83d1lmM3lOTGcxeUVPb3FMeVFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzOTQ0MDMyCWZpbGU6TS1BZ2VudF8wLjYuNjYrMl94NjRfZW4tVVMubXNpCktrd2VabWhJQ09mSXl2cmRHZHBhZWtSbkxzQ056OExhcllUZzRtNlp4Mzh4WFl2TVVhZ2syell1OUtFZGlhcWNDU1dTN2xPSldMMTFHeEpvUjVpZERRPT0K",
+      "url": "https://github.com/ducnhung70/M-Agent/releases/download/v0.6.66.2/M-Agent_0.6.66.2_x64_en-US.msi"
+    }
+  }
+}
