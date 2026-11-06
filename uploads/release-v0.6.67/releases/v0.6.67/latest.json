@@ -1,0 +1,19 @@
+{
+  "version": "0.6.67",
+  "notes": "# M-Agent v0.6.67\n\n## Cải tiến\n\n- Trợ lý AI dùng được mà không cần chọn kết nối. Bạn có thể hỏi đáp chung, đính kèm tệp, dùng tìm kiếm web, bộ nhớ, kỹ năng và công cụ của plugin ngay khi chưa mở kết nối nào. Khi cần AI làm việc với dữ liệu, hãy chọn một kết nối ở bộ chọn phía trên khung chat. Nút X cạnh bộ chọn giúp quay lại chế độ trò chuyện chung.\n- Bảng dữ liệu có thêm tùy chọn sao chép dưới dạng câu lệnh SQL DELETE và SQL DELETE & INSERT.\n- Thêm tùy chọn Kiểm tra khóa ngoại cho thao tác xóa dữ liệu, làm rỗng và truncate hàng loạt trên MySQL.\n- Ctrl+Alt+Enter thay thế tất cả trong các bảng tìm kiếm và thay thế.\n- Thêm phím tắt có thể tùy chỉnh cho lệnh chuyển văn bản thành danh sách phân tách.\n- Các tab trùng tiêu đề được phân biệt bằng tên kết nối.\n- Hiển thị trạng thái đang chạy khi sao chép bảng giữa các cơ sở dữ liệu.\n- Màn hình đăng nhập Web có thêm mã xác nhận bằng hình ảnh, có thể bật hoặc tắt trong Cài đặt.\n- Thông báo cập nhật nêu rõ phiên bản đã bị bỏ qua và cho phép ngừng bỏ qua.\n- Gợi ý kiểu dữ liệu MEDIUMINT cho MySQL.\n\n## Sửa lỗi\n\n- Không còn tự mở gợi ý SQL khi bạn đang thụt lề trước đoạn mã có sẵn.\n- Xuất script SQL Server dùng đúng dấu GO giữa các khối view, thủ tục và trigger, không còn lặp GO.\n- Kết quả MySQL có giới hạn dòng báo tổng số chính xác.\n- GaussDB trả đúng dòng dữ liệu cho EXECUTE DIRECT.\n- Giao dịch thủ công không còn bị kẹt vĩnh viễn khi lượt chạy bị gián đoạn.\n- Kết nối MySQL tương thích Doris đăng nhập được.\n- Kết nối MQTT dùng chứng chỉ không còn hỏi mật khẩu.\n- Sao chép bảng giữ nguyên giá trị mặc định của cột khi chuyển giữa MySQL, PostgreSQL và Dameng.\n- Kết nối TDengine bật được SSL.\n- Giới hạn số dòng của phím tắt SQL không còn bị tự cắt ở 100000.\n- Chẩn đoán SQL báo đúng khi dùng bí danh bảng chưa khai báo.\n- Mở bảng điều khiển công việc mới từ hành động New Query của plugin hoạt động đúng.\n",
+  "pub_date": "2026-11-06T14:52:37Z",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY2V1cVhXaklMODlxOVFrWGl1Wlk5VUIwZ0pJYi9rMk1EbkNON1U0bW81UURqY09mLzJtM2RSY0RBbndYYitxV1NrMkVIZ0tDcGg2SmtRK1lQeHBiY3lsaEg0TGt2NEFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzOTc2NTUwCWZpbGU6TS1BZ2VudF8wLjYuNjdfeDY0LXNldHVwLmV4ZQpDM0pRK0NENTQvNXZSam1ubExnU2pSUDMzd2pWdEZLYmlvMUl0MkJHZytNSWpUSEl6ME1IWWZDcTZ3cUw3UjMxNndESDBvUFhIZWZ4bUh3NmZ0YzdBUT09Cg==",
+      "url": "https://github.com/ducnhung70/M-Agent/releases/download/v0.6.67/M-Agent_0.6.67_x64-setup.exe"
+    },
+    "windows-x86_64-nsis": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY2V1cVhXaklMODlxOVFrWGl1Wlk5VUIwZ0pJYi9rMk1EbkNON1U0bW81UURqY09mLzJtM2RSY0RBbndYYitxV1NrMkVIZ0tDcGg2SmtRK1lQeHBiY3lsaEg0TGt2NEFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzOTc2NTUwCWZpbGU6TS1BZ2VudF8wLjYuNjdfeDY0LXNldHVwLmV4ZQpDM0pRK0NENTQvNXZSam1ubExnU2pSUDMzd2pWdEZLYmlvMUl0MkJHZytNSWpUSEl6ME1IWWZDcTZ3cUw3UjMxNndESDBvUFhIZWZ4bUh3NmZ0YzdBUT09Cg==",
+      "url": "https://github.com/ducnhung70/M-Agent/releases/download/v0.6.67/M-Agent_0.6.67_x64-setup.exe"
+    },
+    "windows-x86_64-msi": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY2V1cVhXaklMODZGNkJLcC90SDFEdDQrR2diK1p3TkNCZjFuczM4VFBvYVkxcnJYeVZpYXlPSXBObmhINTZXOGtjdVlRUzE5L2MwSHV1THB3VXJscGRSemt4dHpYWGdRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzOTc2NTUwCWZpbGU6TS1BZ2VudF8wLjYuNjdfeDY0X2VuLVVTLm1zaQpoUTJFK3BVRmxOVE5OYmdXSHhQcytZcTdYaXlwVkN2N3lFdmJKcmtBQ0VpWWtpUFExR1JFRnBUZVFTUzA2bmQ5RWFUZk1zTVh0eVoyU2hBeW1McytCdz09Cg==",
+      "url": "https://github.com/ducnhung70/M-Agent/releases/download/v0.6.67/M-Agent_0.6.67_x64_en-US.msi"
+    }
+  }
+}

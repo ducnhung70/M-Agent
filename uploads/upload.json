@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updatedAt": "2026-11-06T11:58:56Z",
+  "updatedAt": "2026-11-06T14:54:01Z",
   "items": [
     {
       "id": "m-agent-otter-pack",
@@ -630,6 +630,39 @@
           "path": "changelog/releases-en.json",
           "size": 254434,
           "sha256": "7d9be6af0f099a100d81b33fb53c465a195a4d2f041da00e7bf5b3a136d63529",
+          "publishPath": "changelog/releases-en.json"
+        }
+      ]
+    },
+    {
+      "id": "m-agent-release-mirror",
+      "kind": "release-mirror",
+      "version": "0.6.67",
+      "dir": "uploads/release-v0.6.67",
+      "note": "Copy each file to m-market at publishPath (overwrite).",
+      "files": [
+        {
+          "path": "releases/latest/latest.json",
+          "size": 4273,
+          "sha256": "df34f62d2582fd60aa6f1ff6ac7b8874b3ea0aeb363c9a50345513163b2c644d",
+          "publishPath": "releases/latest/latest.json"
+        },
+        {
+          "path": "releases/v0.6.67/latest.json",
+          "size": 4273,
+          "sha256": "df34f62d2582fd60aa6f1ff6ac7b8874b3ea0aeb363c9a50345513163b2c644d",
+          "publishPath": "releases/v0.6.67/latest.json"
+        },
+        {
+          "path": "changelog/latest-en.json",
+          "size": 4273,
+          "sha256": "df34f62d2582fd60aa6f1ff6ac7b8874b3ea0aeb363c9a50345513163b2c644d",
+          "publishPath": "changelog/latest-en.json"
+        },
+        {
+          "path": "changelog/releases-en.json",
+          "size": 261259,
+          "sha256": "0cea79c31ec83fd12b9c8d3d4e768d4c1a15b105f1ec06c99a87ce4405963f3f",
           "publishPath": "changelog/releases-en.json"
         }
       ]
