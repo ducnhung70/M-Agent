@@ -1,0 +1,19 @@
+{
+  "version": "0.6.67+2",
+  "notes": "# M-Agent v0.6.67.2\n\n## Sửa lỗi\n\n- Trợ lý AI mượt hơn khi đang trả lời trong hội thoại dài: chỉ tin nhắn đang được trả lời được vẽ lại, các tin nhắn cũ giữ nguyên nên không còn giật hoặc chậm giao diện.\n",
+  "pub_date": "2026-11-07T02:43:07Z",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY2V1cVhXaklMOHpycGRNSDBlcXgxamV6MzQ2V0FBYkMyK1RRcy9hMHJ4RGxubFcxT3VjdUFISHdXSWl2R2V4QkNEWngvTTNOOHpUTjBDd253MTdXQVNFRWN1Qm1RU2drPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDE5Mzc4CWZpbGU6TS1BZ2VudF8wLjYuNjcrMl94NjQtc2V0dXAuZXhlClhrSFNjRHNWSHRqR1RpUVFoeDRKV2Q2cmFGZ3hRUnFVNTZ0TGlFbkZOVFc0NlRob05JWmx4K0hSQldrY1lyRXg3REpISDJtL0lnVG1UVk9wVkE0K0R3PT0K",
+      "url": "https://github.com/ducnhung70/M-Agent/releases/download/v0.6.67.2/M-Agent_0.6.67.2_x64-setup.exe"
+    },
+    "windows-x86_64-nsis": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY2V1cVhXaklMOHpycGRNSDBlcXgxamV6MzQ2V0FBYkMyK1RRcy9hMHJ4RGxubFcxT3VjdUFISHdXSWl2R2V4QkNEWngvTTNOOHpUTjBDd253MTdXQVNFRWN1Qm1RU2drPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDE5Mzc4CWZpbGU6TS1BZ2VudF8wLjYuNjcrMl94NjQtc2V0dXAuZXhlClhrSFNjRHNWSHRqR1RpUVFoeDRKV2Q2cmFGZ3hRUnFVNTZ0TGlFbkZOVFc0NlRob05JWmx4K0hSQldrY1lyRXg3REpISDJtL0lnVG1UVk9wVkE0K0R3PT0K",
+      "url": "https://github.com/ducnhung70/M-Agent/releases/download/v0.6.67.2/M-Agent_0.6.67.2_x64-setup.exe"
+    },
+    "windows-x86_64-msi": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY2V1cVhXaklMODY4Vjg4RTNsUFY2UElZT2VxcEk4a1drYkVpKzRZOExZU1pqR0djdFhSYWRHNTBLa1VvSkE0eDROMW5KQVkybFcvd0tWNmFidDd1TzEvY1BsTXB5SndrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDE5Mzc4CWZpbGU6TS1BZ2VudF8wLjYuNjcrMl94NjRfZW4tVVMubXNpCjZsN3E5bndINUhodi85VmFGOU03cXg2Z0szZ2JIZzAxcE5xdUpQMTR2MmtZdTJ2VldTMll4dy95YkRidFFNQTl0WXpGRXVNVzRtZm4wUmw2VVoydUR3PT0K",
+      "url": "https://github.com/ducnhung70/M-Agent/releases/download/v0.6.67.2/M-Agent_0.6.67.2_x64_en-US.msi"
+    }
+  }
+}
