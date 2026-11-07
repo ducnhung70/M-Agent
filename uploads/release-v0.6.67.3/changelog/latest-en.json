@@ -1,0 +1,19 @@
+{
+  "version": "0.6.67+3",
+  "notes": "# M-Agent v0.6.67.3\n\n## Tính năng mới\n\n- Tự đặt tên cuộc đối thoại AI: sau câu trả lời đầu tiên, model đang chat viết một tiêu đề ngắn đúng nội dung cuộc đối thoại. Tên do bạn tự đổi không bao giờ bị ghi đè. Có công tắc \"Tự đặt tên cuộc đối thoại AI\" trong Cài đặt, mục AI (bật mặc định).\n\n## Sửa lỗi\n\n- Ứng dụng không còn tự thoát đột ngột khi trợ lý AI kiểm tra câu lệnh SQL có chứa ký tự tiếng Việt hoặc ký tự có dấu khác.\n- Xuất dữ liệu, tìm kiếm toàn cục và giới hạn số dòng của truy vấn cũng không còn gặp lỗi tương tự với văn bản có ký tự đa byte.\n",
+  "pub_date": "2026-11-07T21:57:01Z",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY2V1cVhXaklMOC9hK09Xbm85WmhtaWh4cVdyWjYxeGhhYXFsdlpzbmlmTW51V24yY0QzUmRXU2g5N1VXMDY2NkxlK09qTk9PQ1J2VGl3SzdTcnlPbnJERDJSVHhRQVFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDg4NTQ2CWZpbGU6TS1BZ2VudF8wLjYuNjcrM194NjQtc2V0dXAuZXhlCmw3a3N5c3hyYXZqckFWeUJmWHNTRnRaaThHMGhGaENRLzhaSStPVERYME5HdHp3TWNIQUN1SXNaSFJuSURVcHZnT09xOWU0eUVpUFZ0TnFHMkMyY0JnPT0K",
+      "url": "https://github.com/ducnhung70/M-Agent/releases/download/v0.6.67.3/M-Agent_0.6.67.3_x64-setup.exe"
+    },
+    "windows-x86_64-nsis": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY2V1cVhXaklMOC9hK09Xbm85WmhtaWh4cVdyWjYxeGhhYXFsdlpzbmlmTW51V24yY0QzUmRXU2g5N1VXMDY2NkxlK09qTk9PQ1J2VGl3SzdTcnlPbnJERDJSVHhRQVFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDg4NTQ2CWZpbGU6TS1BZ2VudF8wLjYuNjcrM194NjQtc2V0dXAuZXhlCmw3a3N5c3hyYXZqckFWeUJmWHNTRnRaaThHMGhGaENRLzhaSStPVERYME5HdHp3TWNIQUN1SXNaSFJuSURVcHZnT09xOWU0eUVpUFZ0TnFHMkMyY0JnPT0K",
+      "url": "https://github.com/ducnhung70/M-Agent/releases/download/v0.6.67.3/M-Agent_0.6.67.3_x64-setup.exe"
+    },
+    "windows-x86_64-msi": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY2V1cVhXaklMODVhV2FzWWZUY3F5UFVWYTVOZVBaWWZZbW93YjhIUk9ucjRxQVJpVkw1dENxTHZmWE4rdlhrVnM5SlhDd1BBWUxTWWhsbWEycUtoTXB6cEQ1RVYzTFFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDg4NTQ2CWZpbGU6TS1BZ2VudF8wLjYuNjcrM194NjRfZW4tVVMubXNpCmVFNnhxSWJvcXQrQllPRXRQeGJ3THRMR2VnSXYrV3V3YW9YWXUweVNZOWwwOG5aQkVUcUNVNGhjeTMxWjNVeHozNE40bnRXY3BYS3BBU01QSlQwWEFRPT0K",
+      "url": "https://github.com/ducnhung70/M-Agent/releases/download/v0.6.67.3/M-Agent_0.6.67.3_x64_en-US.msi"
+    }
+  }
+}
