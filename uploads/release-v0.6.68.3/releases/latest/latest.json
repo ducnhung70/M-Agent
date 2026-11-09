@@ -1,0 +1,19 @@
+{
+  "version": "0.6.68+3",
+  "notes": "# M-Agent v0.6.68.3\n\n## Cải tiến\n\n- Kết quả truy vấn lớn nạp nhẹ hơn: mỗi lần nạp thêm có giới hạn theo số ô (dòng x cột), nên bảng nhiều cột không còn làm treo ứng dụng khi cuộn xuống. Thanh trạng thái có nút \"Nạp thêm\" để nạp tiếp mà không cần cuộn.\n- SQL Server dừng nạp một trang kết quả khi dữ liệu trong bộ nhớ đạt khoảng 256 MB, và đánh dấu kết quả đã bị cắt, thay vì chiếm vài GB RAM với bảng rất rộng.\n- Gợi ý AI trong trình soạn SQL xuất hiện ngay sau khi bạn chọn một gợi ý IntelliSense, và lỗi từ nhà cung cấp AI được ghi vào log để dễ tìm nguyên nhân.\n- Quy tắc phân tích mã SQL chỉ bật sẵn ba quy tắc an toàn: so sánh với NULL, NULL trong NOT IN, UPDATE/DELETE không có WHERE. Các quy tắc còn lại tắt mặc định, gom trong mục \"Nâng cao\" thu gọn. Cài đặt bạn đã lưu được giữ nguyên.\n\n## Sửa lỗi\n\n- Nhãn \"(đang đếm...)\" không còn kẹt khi nạp thêm dòng sau khi đã có tổng số dòng.\n- Nối thêm trang kết quả nhanh hơn, giảm đứng hình khi cuộn xuống để nạp tiếp.\n- Ô chọn mức độ cảnh báo trong Cài đặt không còn bị cắt chữ.\n",
+  "pub_date": "2026-11-09T18:30:40Z",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY2V1cVhXaklMODl1ek1VYnlnMUZsYmhIc1ROZDdKc0lmeVdkWXp5MW02WGdxRGovRDFlbU9UbGtzQzBlY0lNdXEwMllVeXhmREUrTzFTaDlkZEZsOE1EaThNWUZuRVFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MjQ4NzEwCWZpbGU6TS1BZ2VudF8wLjYuNjgrM194NjQtc2V0dXAuZXhlCkI5RDlQTm5UVU9jMmRtMG10dVZmMDBPc0pNTDFKa3M3VzhEYnVtaEUzRVpOcUZRN3E3d0pVTmwzdEkwNEJYUlVzWDd3YlpGNHZiVGRVS2s3RnZmRUF3PT0K",
+      "url": "https://github.com/ducnhung70/M-Agent/releases/download/v0.6.68.3/M-Agent_0.6.68.3_x64-setup.exe"
+    },
+    "windows-x86_64-nsis": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY2V1cVhXaklMODl1ek1VYnlnMUZsYmhIc1ROZDdKc0lmeVdkWXp5MW02WGdxRGovRDFlbU9UbGtzQzBlY0lNdXEwMllVeXhmREUrTzFTaDlkZEZsOE1EaThNWUZuRVFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MjQ4NzEwCWZpbGU6TS1BZ2VudF8wLjYuNjgrM194NjQtc2V0dXAuZXhlCkI5RDlQTm5UVU9jMmRtMG10dVZmMDBPc0pNTDFKa3M3VzhEYnVtaEUzRVpOcUZRN3E3d0pVTmwzdEkwNEJYUlVzWDd3YlpGNHZiVGRVS2s3RnZmRUF3PT0K",
+      "url": "https://github.com/ducnhung70/M-Agent/releases/download/v0.6.68.3/M-Agent_0.6.68.3_x64-setup.exe"
+    },
+    "windows-x86_64-msi": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY2V1cVhXaklMOHhiR21GU05hZEl4ZEtzTVRSM3pROGY2NEpvWGJzcURTUnQwNHo3NkdjdGZMR2VvNUF2c0FHRnZHNk5pS3RUMFY4MXY2K04yb1BBOGVWV1NSUTBRUkE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MjQ4NzEwCWZpbGU6TS1BZ2VudF8wLjYuNjgrM194NjRfZW4tVVMubXNpCnBBZjY5czAybCtldk05VWEzZ2RPMlVpWGIwQVI4V05rekRmYlZLMzdCRFFzKzFralN2TWc1UngvS05qMHM2bGhmaHVOSmp0cDUreXlwWGVXZVdISEJnPT0K",
+      "url": "https://github.com/ducnhung70/M-Agent/releases/download/v0.6.68.3/M-Agent_0.6.68.3_x64_en-US.msi"
+    }
+  }
+}
