@@ -1,0 +1,19 @@
+{
+  "version": "0.6.68+1",
+  "notes": "# M-Agent v0.6.68.1\n\n## Cải tiến\n\n- Trợ lý AI tự lấy giới hạn đầu ra của từng mô hình, nên các câu trả lời dài như thủ tục lưu trữ ít bị cắt giữa chừng hơn. Giá trị bạn đặt trong cấu hình AI vẫn được ưu tiên.\n- Văn bản dán dài vào ô nhập của AI tự chuyển thành tệp đính kèm, không làm ô nhập và cuộc trò chuyện dài ra.\n- Khối mã dài trong câu trả lời của AI được thu gọn, có nút hiện toàn bộ và thu gọn lại.\n- Danh sách việc của AI hiển thị được cả những bước có mô tả dài, và AI luôn lập danh sách việc cho tác vụ nhiều bước thay vì chỉ nêu kế hoạch bằng chữ.\n\n## Sửa lỗi\n\n- Mục \"Trình soạn thảo đích cho SQL do AI tạo\" không còn báo nhầm \"thay đổi chưa lưu\" khi đóng cài đặt.\n- Dọn các cài đặt IntelliSense không còn tác dụng khỏi tệp cài đặt.\n",
+  "pub_date": "2026-11-09T06:02:31Z",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY2V1cVhXaklMOHhoc2Nwc0lkUnFzQ1VyLzBBWFNSempodHpyRFNhSzFrZnRVdXNtdHB0VWZLTkZSZk9KWldpUHJwZ2xOY0tBUUZZbEQ2R1ByWWFqc2M1OG10dGVMZWdZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MjAwMjI3CWZpbGU6TS1BZ2VudF8wLjYuNjgrMV94NjQtc2V0dXAuZXhlCmNiWnlYWjBqTGZBU255ejNSTjh6enFudTVrNTJUU0VxeXZIQXYzeXpNYzlFTkxSRG5JczEvOFJzK3RYOGUxdTgxQVU3amV5ajF1ejl2dDVNbkdpdENRPT0K",
+      "url": "https://github.com/ducnhung70/M-Agent/releases/download/v0.6.68.1/M-Agent_0.6.68.1_x64-setup.exe"
+    },
+    "windows-x86_64-nsis": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY2V1cVhXaklMOHhoc2Nwc0lkUnFzQ1VyLzBBWFNSempodHpyRFNhSzFrZnRVdXNtdHB0VWZLTkZSZk9KWldpUHJwZ2xOY0tBUUZZbEQ2R1ByWWFqc2M1OG10dGVMZWdZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MjAwMjI3CWZpbGU6TS1BZ2VudF8wLjYuNjgrMV94NjQtc2V0dXAuZXhlCmNiWnlYWjBqTGZBU255ejNSTjh6enFudTVrNTJUU0VxeXZIQXYzeXpNYzlFTkxSRG5JczEvOFJzK3RYOGUxdTgxQVU3amV5ajF1ejl2dDVNbkdpdENRPT0K",
+      "url": "https://github.com/ducnhung70/M-Agent/releases/download/v0.6.68.1/M-Agent_0.6.68.1_x64-setup.exe"
+    },
+    "windows-x86_64-msi": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY2V1cVhXaklMOHdJSDVFTVhaejEvc0V6QmliSnFiVGRIS3FJM01sT3c4b3FaYmw3d09lVG9qcnUza2NrcTh0MEtPQzBKWUVWSkFEOFp2R0R2MWtEa3pwa3VlNktmaVFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MjAwMjI3CWZpbGU6TS1BZ2VudF8wLjYuNjgrMV94NjRfZW4tVVMubXNpCkF1bEY1V3NsUkNEYnpFSUQrT0tqOWF3dWQreXdJSzg2SVp3clI3MTYxWXJtc2RVSGJocE5lZDYrengySFF0TWtIeU1CRm1wOVFXbHM1OUV6VUZzRUJBPT0K",
+      "url": "https://github.com/ducnhung70/M-Agent/releases/download/v0.6.68.1/M-Agent_0.6.68.1_x64_en-US.msi"
+    }
+  }
+}
