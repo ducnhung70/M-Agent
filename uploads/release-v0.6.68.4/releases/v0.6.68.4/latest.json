@@ -1,0 +1,19 @@
+{
+  "version": "0.6.68+4",
+  "notes": "# M-Agent v0.6.68.4\n\n## Cải tiến\n\n- Kết quả truy vấn lớn: mỗi lần nạp thêm lấy đủ số dòng theo cài đặt \"Số dòng kết quả tối đa\". Với SQL Server, khi dữ liệu của một lần nạp đạt khoảng 256 MB thì dừng và cho bấm \"Nạp thêm\" để lấy tiếp, thay vì chiếm vài GB RAM với bảng rất rộng.\n- Theme động: hỗ trợ bộ theme pixel (Cloud Drift, Fireflies, Honu Lagoon, Jellyfish, Koi Pond, Moonlit, Paper Boats, Sakura Breeze, Claude Code, Việt Nam). Nền động hiện khi cài theme từ m-market, và dùng được cả khi không có mạng.\n- Dọn toàn bộ cảnh báo kiểm tra mã trong ứng dụng.\n\n## Sửa lỗi\n\n- Trang kết quả bị cắt vì giới hạn dung lượng không còn bị coi là trang cuối: nút \"Nạp thêm\" và cuộn xuống vẫn nạp tiếp được.\n",
+  "pub_date": "2026-11-09T20:02:24Z",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY2V1cVhXaklMODNNUW03TllNMDAwa1dMeTZ2Q0p0ZWNiWWlsUUJGczA0TUpVT1BwZ3lmWkdUK1dna1JoQjRQL0N0K0p4M3FDU3RVdG9nd1hsUG5YaHBkck1WL293MndvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MjU0NTI4CWZpbGU6TS1BZ2VudF8wLjYuNjgrNF94NjQtc2V0dXAuZXhlCnI3VFVHeDlKWXdtTHIxWVFnOFRoaXZMVXc1blhDZENYUys0U3Q0ejFmZkRkT1ZmS3JoaTJTaXRvZ0ZBcnIyZDZNbjRjOTdLNGJkdXV4SGRsMFcvc0F3PT0K",
+      "url": "https://github.com/ducnhung70/M-Agent/releases/download/v0.6.68.4/M-Agent_0.6.68.4_x64-setup.exe"
+    },
+    "windows-x86_64-nsis": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY2V1cVhXaklMODNNUW03TllNMDAwa1dMeTZ2Q0p0ZWNiWWlsUUJGczA0TUpVT1BwZ3lmWkdUK1dna1JoQjRQL0N0K0p4M3FDU3RVdG9nd1hsUG5YaHBkck1WL293MndvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MjU0NTI4CWZpbGU6TS1BZ2VudF8wLjYuNjgrNF94NjQtc2V0dXAuZXhlCnI3VFVHeDlKWXdtTHIxWVFnOFRoaXZMVXc1blhDZENYUys0U3Q0ejFmZkRkT1ZmS3JoaTJTaXRvZ0ZBcnIyZDZNbjRjOTdLNGJkdXV4SGRsMFcvc0F3PT0K",
+      "url": "https://github.com/ducnhung70/M-Agent/releases/download/v0.6.68.4/M-Agent_0.6.68.4_x64-setup.exe"
+    },
+    "windows-x86_64-msi": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY2V1cVhXaklMOHpabm5EQUU3VEk2eFh0ckJGTUdHaFBhNUR1TVFlSURONkxQOUlZaXFXcDg4S2JYa29hSjFBOGYrZTBZMkFZc3R5QWxHMThYb1EvcWQvTUFOcGFrK2dZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MjU0NTI4CWZpbGU6TS1BZ2VudF8wLjYuNjgrNF94NjRfZW4tVVMubXNpCkpzY1pZeEIzNXpkRTJJT1NFdTdTdi91dHNFWHVhUmNQRWtWUTVjWXVpRjdUTlVPcFkzdXdiL1lZNmx1dm54L2srUjEvNUd4ZzEwZEd0SFpmdDBFOEFBPT0K",
+      "url": "https://github.com/ducnhung70/M-Agent/releases/download/v0.6.68.4/M-Agent_0.6.68.4_x64_en-US.msi"
+    }
+  }
+}
