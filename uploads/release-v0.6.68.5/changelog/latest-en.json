@@ -1,0 +1,19 @@
+{
+  "version": "0.6.68+5",
+  "notes": "# M-Agent v0.6.68.5\n\n## Cải tiến\n\n- SQL Server: kết quả truy vấn lớn hiện dần trong lúc còn đang đọc. Các dòng đầu xuất hiện sau chưa tới 0,1 giây thay vì phải chờ đọc hết cả lô (trước đây với 100.000 dòng chờ khoảng 1,5 giây, với 1 triệu dòng khoảng 15 giây). Bản xem trước hiển thị tối đa 50.000 dòng đầu, kết quả đầy đủ vẫn thay thế khi đọc xong.\n",
+  "pub_date": "2026-11-10T03:25:42Z",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY2V1cVhXaklMODlEUmNyZGN1bmNzT3k2cXNha1duSUxHVDdkbVBvWGl2dnVGWDBpR0VwOW9ISEhOZWtOWEFuNkV2UUZialJqZjVJeFFOV1RVRzl4eTVZUGcvYTdlUncwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MjgxMTE4CWZpbGU6TS1BZ2VudF8wLjYuNjgrNV94NjQtc2V0dXAuZXhlCnNBbkJZMlJhenRxcmY2WHRZdzZLVGlnOXdrdVRXTE1WbzZvN1B6b1V5NnVoVGEwbTVrdys2Z3RyY2c0NXg2dkd6U0Mxdm51V1NXY1U5cFUvTjVzNkFRPT0K",
+      "url": "https://github.com/ducnhung70/M-Agent/releases/download/v0.6.68.5/M-Agent_0.6.68.5_x64-setup.exe"
+    },
+    "windows-x86_64-nsis": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY2V1cVhXaklMODlEUmNyZGN1bmNzT3k2cXNha1duSUxHVDdkbVBvWGl2dnVGWDBpR0VwOW9ISEhOZWtOWEFuNkV2UUZialJqZjVJeFFOV1RVRzl4eTVZUGcvYTdlUncwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MjgxMTE4CWZpbGU6TS1BZ2VudF8wLjYuNjgrNV94NjQtc2V0dXAuZXhlCnNBbkJZMlJhenRxcmY2WHRZdzZLVGlnOXdrdVRXTE1WbzZvN1B6b1V5NnVoVGEwbTVrdys2Z3RyY2c0NXg2dkd6U0Mxdm51V1NXY1U5cFUvTjVzNkFRPT0K",
+      "url": "https://github.com/ducnhung70/M-Agent/releases/download/v0.6.68.5/M-Agent_0.6.68.5_x64-setup.exe"
+    },
+    "windows-x86_64-msi": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY2V1cVhXaklMODJtMk8xOUJSd3VJVGlxUjhqd0xLbjh5UEREL2dtVnNhaTFTS2xOZ25KQ052b2QvZ1lIS0h5SjRnZDMwVHNpRnd0dDF4UFZ6S01iVjBZcDFacUlNN1E0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MjgxMTE4CWZpbGU6TS1BZ2VudF8wLjYuNjgrNV94NjRfZW4tVVMubXNpClhCR25jWXRRQ3VJUjAwVlpQdHNyb1ZEYUkyMXEwRm5xdDNTUnVTMGNtWFZ3dFZzcmxEemNjQktmaGFGbnhjQTZRY0c4a1R3VWJuTnlnZytIV0kyT0NBPT0K",
+      "url": "https://github.com/ducnhung70/M-Agent/releases/download/v0.6.68.5/M-Agent_0.6.68.5_x64_en-US.msi"
+    }
+  }
+}
