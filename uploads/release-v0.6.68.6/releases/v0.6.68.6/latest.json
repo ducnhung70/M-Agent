@@ -1,0 +1,19 @@
+{
+  "version": "0.6.68+6",
+  "notes": "# M-Agent v0.6.68.6\n\n## Cải tiến\n\n- Trình soạn thảo: có thể lưu định nghĩa thủ tục/hàm trực tiếp vào cơ sở dữ liệu.\n- Thanh bên: tìm chỉ mục (index) trong kết nối hiện tại, kể cả chỉ mục Elasticsearch.\n- Gợi ý `FORCE INDEX` cho MySQL.\n- Chạy lại truy vấn khi kết quả đang có thay đổi chưa lưu: hiện hộp thoại hỏi bỏ thay đổi hay quay lại lưu trước.\n- Dòng đang chọn trong trình soạn thảo vẫn được tô sáng khi có bookmark.\n- Phần chỉnh sửa cột trong màn hình cấu trúc bảng dùng cỡ chữ thống nhất.\n\n## Sửa lỗi\n\n- SQL Server: kết quả truy vấn lớn quay về cách hiển thị một lần khi đọc xong, như bản 0.6.68.4. Chế độ hiện dần của bản 0.6.68.5 làm bảng kết quả bị đơ nên đã gỡ.\n- PostgreSQL: sửa/xóa dòng trùng hệt nhau trong bảng không khóa chính đúng dòng được chọn; hiển thị rõ lỗi gốc từ máy chủ.\n- MySQL: mã nguồn view được định dạng khi mở trong tab; thời gian đọc metadata của trình duyệt đối tượng theo thời gian chờ truy vấn thay vì cố định 5 giây.\n- Oracle: danh sách trigger của bảng lọc đúng theo chủ sở hữu bảng.\n- Danh sách schema trong trình soạn thảo được làm mới khi tải lại cây đối tượng.\n",
+  "pub_date": "2026-11-10T11:00:52Z",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY2V1cVhXaklMODhHMXk3M3RoakZPcUVPbDI2RnlWcSs5eGVJb3UxME9JVFBlTGIxQXFVN1BiWFA2aG1rNjBKMUZickpWNU56U290YlpEeDlYdzU4TWVwbHhIOHVGV0E4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MzA4MzAxCWZpbGU6TS1BZ2VudF8wLjYuNjgrNl94NjQtc2V0dXAuZXhlCnhGaWJkL2dRYU90S1JPV1Z2Q3hOZERsNXRoTzk3SXh6R2x2R2szeTk3MXRzdXhCRURKQzJJSWJsQjloVXNtY25xMEtkTTlELzFOUVZXZUlaNUVvUURRPT0K",
+      "url": "https://github.com/ducnhung70/M-Agent/releases/download/v0.6.68.6/M-Agent_0.6.68.6_x64-setup.exe"
+    },
+    "windows-x86_64-nsis": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY2V1cVhXaklMODhHMXk3M3RoakZPcUVPbDI2RnlWcSs5eGVJb3UxME9JVFBlTGIxQXFVN1BiWFA2aG1rNjBKMUZickpWNU56U290YlpEeDlYdzU4TWVwbHhIOHVGV0E4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MzA4MzAxCWZpbGU6TS1BZ2VudF8wLjYuNjgrNl94NjQtc2V0dXAuZXhlCnhGaWJkL2dRYU90S1JPV1Z2Q3hOZERsNXRoTzk3SXh6R2x2R2szeTk3MXRzdXhCRURKQzJJSWJsQjloVXNtY25xMEtkTTlELzFOUVZXZUlaNUVvUURRPT0K",
+      "url": "https://github.com/ducnhung70/M-Agent/releases/download/v0.6.68.6/M-Agent_0.6.68.6_x64-setup.exe"
+    },
+    "windows-x86_64-msi": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY2V1cVhXaklMODFza00vM0FVWVQrcTdKa1NsSk1jZXFtMGx1Y3FwM3NsUG84dHJ6dytUc1JXMlpab1BsY3hnQ0JUR2xHR3BhU0N1UE9rN1Ezb0JmckpmZlU1aGlHbEE4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MzA4MzAxCWZpbGU6TS1BZ2VudF8wLjYuNjgrNl94NjRfZW4tVVMubXNpClJNUWprV0s0ZlJZeWlGOWZwQUlSUUZpbWNnb2JYN3RGRVRiQ1lrV1BYS3Z2QXNIZWxlMzNmOHdqTk5aSkFJbjNsNUl4TTZwR1FTNlhHcmFZeWVjb0JBPT0K",
+      "url": "https://github.com/ducnhung70/M-Agent/releases/download/v0.6.68.6/M-Agent_0.6.68.6_x64_en-US.msi"
+    }
+  }
+}
