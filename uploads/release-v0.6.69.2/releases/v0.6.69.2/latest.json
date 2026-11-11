@@ -1,0 +1,19 @@
+{
+  "version": "0.6.69+2",
+  "notes": "# M-Agent v0.6.69.2\n\n## Cải tiến\n\n- Cài đặt AI: \"Hướng dẫn & bộ nhớ\", \"Tìm kiếm web\" và \"MCP cho AI\" nằm ngay trong menu AI dưới dạng màn con, có nút \"Quay lại\", giống màn sửa cấu hình AI. Không còn là các mục riêng ở thanh danh mục.\n- Bộ chọn model: model có chế độ suy nghĩ hoặc lý luận hiện biểu tượng não, model đọc được hình ảnh hiện biểu tượng mắt (thay cho nhãn chữ).\n- Chế độ suy nghĩ theo chế độ làm việc: Agent mặc định bật, Hỏi mặc định tắt (với model cho phép tắt). Lựa chọn của bạn trong menu vẫn được giữ nguyên.\n",
+  "pub_date": "2026-11-11T20:04:24Z",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY2V1cVhXaklMOC9FaXRiOEVSVllEVUpubk5kTlBpaWNwak00RmR3RWtnNWYwUlJKejRRRHNkU1hQdlYxc1lraTI1bVVld3k2eHBCeXBnOFA1bGJidTRWVU1CcGcyMWcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NDI3NDQ4CWZpbGU6TS1BZ2VudF8wLjYuNjkrMl94NjQtc2V0dXAuZXhlCmFPNUFrcTlKMVFyQ1BYenlmcWNubzIraWVQN01GVzlBSGNHcE1Xek9xSjREYzM2cVM5a3RTdGN3NXN1WWRmOVFYZkk4bEtvdCtSN21malV2aDNrNER3PT0K",
+      "url": "https://github.com/ducnhung70/M-Agent/releases/download/v0.6.69.2/M-Agent_0.6.69.2_x64-setup.exe"
+    },
+    "windows-x86_64-nsis": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY2V1cVhXaklMOC9FaXRiOEVSVllEVUpubk5kTlBpaWNwak00RmR3RWtnNWYwUlJKejRRRHNkU1hQdlYxc1lraTI1bVVld3k2eHBCeXBnOFA1bGJidTRWVU1CcGcyMWcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NDI3NDQ4CWZpbGU6TS1BZ2VudF8wLjYuNjkrMl94NjQtc2V0dXAuZXhlCmFPNUFrcTlKMVFyQ1BYenlmcWNubzIraWVQN01GVzlBSGNHcE1Xek9xSjREYzM2cVM5a3RTdGN3NXN1WWRmOVFYZkk4bEtvdCtSN21malV2aDNrNER3PT0K",
+      "url": "https://github.com/ducnhung70/M-Agent/releases/download/v0.6.69.2/M-Agent_0.6.69.2_x64-setup.exe"
+    },
+    "windows-x86_64-msi": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY2V1cVhXaklMOCtsV0xiNVRBTDZuY3p6MGk1dWJxeTh2K0sydkt6Nk5hZFJZS1dJSGNzUTFqc3dwT1phUGlHOCt4NGpQeHIyTDJMNTdVcjBMWnhFa05YZ0phOGt2YUFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NDI3NDQ4CWZpbGU6TS1BZ2VudF8wLjYuNjkrMl94NjRfZW4tVVMubXNpCnBzMVk3V0VaR0w5WHdJNVQ2UVl0Rk0wQTZmYnBSbkNnRm5SNWdaY1dCUDlpRzgwUVBGMUkrSXZaN3EyQVNMUWxqdkNpdGxlRXRDL2xHbk1GaW90SkRRPT0K",
+      "url": "https://github.com/ducnhung70/M-Agent/releases/download/v0.6.69.2/M-Agent_0.6.69.2_x64_en-US.msi"
+    }
+  }
+}
