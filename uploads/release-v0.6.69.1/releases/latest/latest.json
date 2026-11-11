@@ -1,0 +1,19 @@
+{
+  "version": "0.6.69+1",
+  "notes": "# M-Agent v0.6.69.1\n\n## Cải tiến\n\n- Trợ lý AI: chế độ Hỏi giờ cũng tìm kiếm được trên web và đọc được trang web, giống chế độ Agent.\n- Tìm kiếm web và đọc trang web tự khai báo được: chọn dịch vụ có sẵn (Tavily, Brave, Serper, Exa, SearXNG, Google PSE, SearchAPI, Linkup, Ollama, Perplexity; đọc trang bằng Jina, Firecrawl, Tavily Extract, Exa Contents, Ollama) hoặc tự nhập địa chỉ, cách xác thực và đường dẫn kết quả. Có nút thử ngay trong cài đặt.\n- Tệp đính kèm: đọc được PDF và Word (.docx). Giới hạn mới: PDF 30 MB, Word và Excel 20 MB, CSV/TXT 10 MB, ảnh 10 MB mỗi ảnh (tổng 30 MB cho 4 ảnh).\n- Tệp đính kèm dài: phần đầu được gửi kèm câu hỏi, AI tự đọc tiếp phần còn lại theo từng trang, kể cả ở các lượt hỏi sau trong cùng cuộc trò chuyện.\n- Cài đặt: tách thành các mục riêng \"Tìm kiếm web\", \"Hướng dẫn & bộ nhớ\" (hướng dẫn cho AI, bộ nhớ AI, mẫu nhắc) và \"MCP cho AI\".\n- MCP cho AI: khai báo bằng biểu mẫu, dán một dòng lệnh hoặc cấu hình Claude Desktop/Cursor để thêm nhanh, chọn server có sẵn, thử từng server. Vẫn có thể sửa dạng JSON.\n- Ô API Key của tìm kiếm web hiển thị và hoạt động giống cấu hình AI.\n- Danh sách nhà cung cấp AI gọn hơn: bỏ nhóm nhà cung cấp tài trợ.\n\n## Sửa lỗi\n\n- Trợ lý AI: khối mã trong câu trả lời không còn bị các bước công cụ chen ngang làm đứt giữa chừng.\n- Thông báo khi tệp đính kèm dài hơn giới hạn được viết lại cho đúng nghĩa, và các câu tiếng Việt liên quan đến tệp đính kèm được dịch lại.\n",
+  "pub_date": "2026-11-11T18:50:28Z",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY2V1cVhXaklMODhpdEdhemRraldJRWJuVHdsYTdYUmtlakptV0lIQkgwbm9JOUFJazZYK0g5Slp2TXRmWVNrOG1LdHJRa0VudDFKbjNWSld6aDdKZmNGUTk1a3R4OEE4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NDIzMDE5CWZpbGU6TS1BZ2VudF8wLjYuNjkrMV94NjQtc2V0dXAuZXhlClhFVGt5Yi9nLzFSaVlRcHFpYjkwS0FVTVdBRTkyaFl4ZGtJVzZxL3oyVERQNGZVYVhFQkZhc1IxbzdKQnFia3RqRFJraFRBR2NNSytRRTI5elRubURnPT0K",
+      "url": "https://github.com/ducnhung70/M-Agent/releases/download/v0.6.69.1/M-Agent_0.6.69.1_x64-setup.exe"
+    },
+    "windows-x86_64-nsis": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY2V1cVhXaklMODhpdEdhemRraldJRWJuVHdsYTdYUmtlakptV0lIQkgwbm9JOUFJazZYK0g5Slp2TXRmWVNrOG1LdHJRa0VudDFKbjNWSld6aDdKZmNGUTk1a3R4OEE4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NDIzMDE5CWZpbGU6TS1BZ2VudF8wLjYuNjkrMV94NjQtc2V0dXAuZXhlClhFVGt5Yi9nLzFSaVlRcHFpYjkwS0FVTVdBRTkyaFl4ZGtJVzZxL3oyVERQNGZVYVhFQkZhc1IxbzdKQnFia3RqRFJraFRBR2NNSytRRTI5elRubURnPT0K",
+      "url": "https://github.com/ducnhung70/M-Agent/releases/download/v0.6.69.1/M-Agent_0.6.69.1_x64-setup.exe"
+    },
+    "windows-x86_64-msi": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY2V1cVhXaklMODMwN042VVR6bE1CQ0U4MHBoV0lLMUtoS2lrT1ZwaUE0dDNSTVlGelpRcXhuUzdUZ0tkMTdPWldLKzk3T3hpampPNVlrZXdISSswRzlyaTN2dDZEQUFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NDIzMDE5CWZpbGU6TS1BZ2VudF8wLjYuNjkrMV94NjRfZW4tVVMubXNpCjkrNnVpaUpZeFc2QVVIOEMrb2FsbFl0QjBuS0lGdHhkdTZFendaNFdqbU9YNU9WZWFjV3phVDFSekloVjRIQmRSck0yTWh0VnV6aENrdmQ3bDhuQUFnPT0K",
+      "url": "https://github.com/ducnhung70/M-Agent/releases/download/v0.6.69.1/M-Agent_0.6.69.1_x64_en-US.msi"
+    }
+  }
+}
