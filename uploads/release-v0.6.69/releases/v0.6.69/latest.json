@@ -1,0 +1,19 @@
+{
+  "version": "0.6.69",
+  "notes": "# M-Agent v0.6.69\n\n## Cải tiến\n\n- Trợ lý AI: danh sách model có nhãn \"Suy nghĩ\" hoặc \"Lý luận\" cho model hỗ trợ chế độ này.\n- Trợ lý AI: nút bật/tắt chế độ suy nghĩ ngay cạnh bộ chọn model. Tắt khi không cần để trả lời nhanh và tiết kiệm hơn; lựa chọn được nhớ riêng cho từng model.\n- Trình soạn thảo: thêm nút comment/bỏ comment dòng trên thanh công cụ; menu chuột phải gọn hơn với mục \"Thêm\".\n- Lưới dữ liệu: sao chép tên cột dạng phân cách bằng dấu phẩy, hoặc đặt trong dấu nháy đơn.\n- Lưới dữ liệu: định dạng hiển thị số với dấu phân cách hàng nghìn và số chữ số thập phân tùy chọn.\n- Trình duyệt đối tượng: kéo thả hoặc dùng phím mũi tên Lên/Xuống để đổi thứ tự cột, thứ tự được ghi nhớ.\n- Thanh bên: tìm bảng theo dạng `schema.table`; tùy chọn mở tab bảng khi bấm.\n- Chuyển dữ liệu: bộ lọc bảng đặt cạnh danh sách đối tượng đã chọn.\n- Mở liên kết kết nối cho các loại kết nối do plugin cung cấp.\n\n## Sửa lỗi\n\n- Lưới dữ liệu: tự căn lại độ rộng cột sau mỗi lần chạy hoặc làm mới truy vấn; giữ ghim tab kết quả khi chuyển qua lại; cho phép trigger Firebird điền cột không cho phép NULL.\n- PostgreSQL: hiển thị đúng tên quan hệ sau khi chuyển chữ hoa/thường; chọn đúng kiểu có tên là từ khóa dành riêng.\n- MySQL: chuyển dữ liệu có giá trị ngày bằng 0 sang đích ở chế độ nghiêm ngặt không còn lỗi.\n- Kingbase: chạy thủ tục lưu trữ trả về đủ tập kết quả.\n- Teradata: truy vấn của người dùng không còn bị chèn mệnh đề giới hạn mà máy chủ không hỗ trợ.\n- SAP HANA: xem được mã nguồn view và định dạng DDL.\n- Doris: sinh đúng câu lệnh cấp quyền cho người dùng mới.\n- Dameng: đọc đúng cột FLOAT với độ chính xác kép.\n- IoTDB: tôn trọng giá trị \"không giới hạn\" của thời gian chờ khi tải theo trang.\n- Lịch sử: thời gian thực thi khớp với tóm tắt của truy vấn.\n- Sao lưu: tiến độ hiển thị số nguyên.\n",
+  "pub_date": "2026-11-11T10:04:53Z",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY2V1cVhXaklMODhtK2I0V0RVaVFWVkhUdTN0ejllQW04RzlEQjE0RU81aE5UUnE0MFE5dmQrTjZFUDJYaFRxeHB4eTRPcnd1YUdVMHdia0VsMXN4R2VOcWhKOTZOVVE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MzkxNDc5CWZpbGU6TS1BZ2VudF8wLjYuNjlfeDY0LXNldHVwLmV4ZQpCTi9uaGsxUFZBMXdKWU9OZlFoVGc4UnRqck9JbExyWW5pK2x4Ukw0NlN0NWs1S25mZzE4ZkVFRkNaUnkzTnZoQVVDVVRuOEM2TjEvanpXc3JJQVZEUT09Cg==",
+      "url": "https://github.com/ducnhung70/M-Agent/releases/download/v0.6.69/M-Agent_0.6.69_x64-setup.exe"
+    },
+    "windows-x86_64-nsis": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY2V1cVhXaklMODhtK2I0V0RVaVFWVkhUdTN0ejllQW04RzlEQjE0RU81aE5UUnE0MFE5dmQrTjZFUDJYaFRxeHB4eTRPcnd1YUdVMHdia0VsMXN4R2VOcWhKOTZOVVE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MzkxNDc5CWZpbGU6TS1BZ2VudF8wLjYuNjlfeDY0LXNldHVwLmV4ZQpCTi9uaGsxUFZBMXdKWU9OZlFoVGc4UnRqck9JbExyWW5pK2x4Ukw0NlN0NWs1S25mZzE4ZkVFRkNaUnkzTnZoQVVDVVRuOEM2TjEvanpXc3JJQVZEUT09Cg==",
+      "url": "https://github.com/ducnhung70/M-Agent/releases/download/v0.6.69/M-Agent_0.6.69_x64-setup.exe"
+    },
+    "windows-x86_64-msi": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY2V1cVhXaklMOHlMd00zYkZWQTRFVDByM0ZVMG5rYTQxbCtTWEFoRXJqaktlMEVUTEsvS0U4Z0ZmbTFuMDNIandwTC8zNXJJZ3JmemZhb3JJb25uU3d4Zm42SE5tL1FvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MzkxNDc5CWZpbGU6TS1BZ2VudF8wLjYuNjlfeDY0X2VuLVVTLm1zaQozRFZPTEdXVjFmZVhBZ0htaDljSjB1aWExQlV6aDVhT0p0UWg5anhScGErMEw0aE16a090VmlzcU9qZ2lNcTNUT0hKNHU4MGxkWWxNdnYzbWxURWdBUT09Cg==",
+      "url": "https://github.com/ducnhung70/M-Agent/releases/download/v0.6.69/M-Agent_0.6.69_x64_en-US.msi"
+    }
+  }
+}
