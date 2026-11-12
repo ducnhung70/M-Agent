@@ -1,0 +1,19 @@
+{
+  "version": "0.6.69+3",
+  "notes": "# M-Agent v0.6.69.3\n\n## Cải tiến\n\n- AI: mức suy nghĩ (reasoning) được chọn từ danh sách mà model hỗ trợ thay cho việc gõ chữ. Không còn nút bật/tắt riêng: Agent tự bật suy nghĩ, Hỏi tự tắt (với model cho phép tắt). Mức bạn chọn chỉ có hiệu lực ở chế độ bạn đã chọn nó.\n- Lưới dữ liệu: thêm bộ lọc \"không bắt đầu bằng\" và \"không kết thúc bằng\"; độ rộng cột tự khớp lại mỗi khi chạy truy vấn hoặc làm mới; cho phép thêm dòng mới trên kết nối JDBC chung.\n- SQL Server: gợi ý hàm trả về bảng trong FROM/JOIN.\n- Trình soạn thảo: gợi ý chỉ được nhận theo từ đang gõ khi bạn nhấn phím cách để xác nhận.\n- Thanh bên: tùy chọn bấm vào tab bảng để điều hướng.\n- Plugin: sao chép ảnh PNG do plugin tạo ra vào clipboard hệ thống; cho phép khai báo tới 64 địa chỉ mạng.\n\n## Sửa lỗi\n\n- Windows: tự khôi phục khi khóa mã hóa thông tin đăng nhập bị mất, có thêm bản sao dự phòng được bảo vệ bằng tài khoản Windows.\n- SQL Server: giữ chú thích đầu stored procedure khi chạy theo lô.\n- MySQL: dấu phân tách lô không còn bị dính vào chú thích cuối dòng.\n- Thanh bên: tìm kiếm bảng không còn ghi nhầm tên database thành schema.\n- Firebird: trigger được phép điền cột NOT NULL khi thêm dòng; ghi văn bản đúng bảng mã của database.\n- Kingbase: trả về tập kết quả khi chạy stored procedure; đọc đúng sự kiện trigger.\n- Teradata: truy vấn của bạn không còn bị chèn mệnh đề limit mà hệ quản trị không hỗ trợ.\n- Doris: tạo đúng lệnh cấp quyền cho người dùng mới.\n- SAP HANA: hỗ trợ xem mã nguồn của view và định dạng DDL.\n- Xugu: phiên điều khiển chỉ áp dụng cho đăng nhập SYSTEM tường minh; AI bỏ qua các phạm vi tổng hợp khi xác định bảng.\n",
+  "pub_date": "2026-11-12T02:08:58Z",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY2V1cVhXaklMOC9FTWIzajREQ0xwZDJNK1BqVWM3OHhaY0xQSjQyYzVWVTZ0VzJ2TEFmZnJQOFI1OUxQZFNtd284MXA2Z3VBVVU2Q1ZyTXpWNUUwZHJCbERRdndBTVFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NDQ5MzI2CWZpbGU6TS1BZ2VudF8wLjYuNjkrM194NjQtc2V0dXAuZXhlCkhMR1JPWUtpSGVDOFlQYk11dFl6SkE1ZUVXRzVFamtQS3VINGVOMGpvVTVSN2drZ3QxbmN1d0VPVjRXK2ZFTGFYRytMOU83QWxMQk8welVOT3FMYUJBPT0K",
+      "url": "https://github.com/ducnhung70/M-Agent/releases/download/v0.6.69.3/M-Agent_0.6.69.3_x64-setup.exe"
+    },
+    "windows-x86_64-nsis": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY2V1cVhXaklMOC9FTWIzajREQ0xwZDJNK1BqVWM3OHhaY0xQSjQyYzVWVTZ0VzJ2TEFmZnJQOFI1OUxQZFNtd284MXA2Z3VBVVU2Q1ZyTXpWNUUwZHJCbERRdndBTVFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NDQ5MzI2CWZpbGU6TS1BZ2VudF8wLjYuNjkrM194NjQtc2V0dXAuZXhlCkhMR1JPWUtpSGVDOFlQYk11dFl6SkE1ZUVXRzVFamtQS3VINGVOMGpvVTVSN2drZ3QxbmN1d0VPVjRXK2ZFTGFYRytMOU83QWxMQk8welVOT3FMYUJBPT0K",
+      "url": "https://github.com/ducnhung70/M-Agent/releases/download/v0.6.69.3/M-Agent_0.6.69.3_x64-setup.exe"
+    },
+    "windows-x86_64-msi": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY2V1cVhXaklMOC9SL3ZSR3JkT2tWV0JqY0IvT0t5QnByTysxTXEwWllaUWl2SXNUVGg2dXJJenpLZFRVc2pUMnk4SXpKU00yNkNmeGt3eHordHJIdnJodHVzTnVaYVF3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NDQ5MzI2CWZpbGU6TS1BZ2VudF8wLjYuNjkrM194NjRfZW4tVVMubXNpClZLMGp3MThxVjY5cVZib2t3NkRSOHhoNHJyRk1EMkVvbkFqQlFScDIyTFdkUU5ISm5lMHJQZnI3SlpucUZlZDhDd0o0d0J1ZEx0dHpQcTZ5anVUWkN3PT0K",
+      "url": "https://github.com/ducnhung70/M-Agent/releases/download/v0.6.69.3/M-Agent_0.6.69.3_x64_en-US.msi"
+    }
+  }
+}
