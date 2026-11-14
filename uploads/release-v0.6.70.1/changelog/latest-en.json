@@ -1,0 +1,19 @@
+{
+  "version": "0.6.70+1",
+  "notes": "# M-Agent v0.6.70.1\n\n## Cải tiến\n\n- AI: chọn quyền chạy SQL ngay trong ô chế độ của khung chat: Chỉ đọc, Hỏi trước hoặc Tự chạy. Tự chạy chỉ áp dụng cho UPDATE/DELETE có điều kiện WHERE, tối đa 100 dòng, trên cơ sở dữ liệu không phải production, và chỉ khi chính tin nhắn của bạn yêu cầu thay đổi dữ liệu. Mọi trường hợp còn lại vẫn hỏi xác nhận.\n- AI: kết nối chỉ đọc không còn hiện thẻ xác nhận cho câu lệnh ghi; chế độ Chỉ đọc cũng áp dụng cho các CLI provider.\n- AI: xem cột của nhiều bảng trong một lần gọi; có công cụ khảo sát schema chạy riêng, chỉ đọc, hiện từng bước ngay trong thẻ.\n- AI: bộ nhớ có thêm hai loại \"công thức SQL\" và \"bài học\", kèm ghi chú độ cũ và nhắc kiểm tra lại schema trước khi dùng lại; khi danh sách bộ nhớ quá dài, mục liên quan đến câu hỏi hiện tại được giữ lại trước.\n- AI: bảng kết quả dài được rút gọn theo từng dòng nguyên và cho biết đã bỏ bao nhiêu dòng; tự dừng khi mô hình lặp lại cùng một lệnh nhiều lần; tự thử lại khi mô hình trả lời rỗng; báo lỗi khi luồng trả lời im lặng quá lâu.\n- AI: kết quả từ web, MCP hoặc plugin sẽ thu hồi quyền ghi đã cấp trong lượt chạy đó.\n- Thẻ tab đã đóng gần đây có thể tìm kiếm; thêm gợi ý sắp xếp nhanh trên tiêu đề cột; chọn schema khi chạy tệp SQL.\n- Lưới dữ liệu: tùy chọn hiện/ẩn ô nhập nhanh ORDER BY và chỉnh tỷ lệ độ rộng WHERE / ORDER BY.\n- Thanh bên: chọn hành động khi nhấp đúp vào cột (mở trình sửa cấu trúc hoặc tạo truy vấn có bộ lọc).\n- Trình soạn thảo: tùy chọn thêm tiền tố bảng vào gợi ý cột; MySQL gợi ý USE INDEX và IGNORE INDEX.\n\n## Sửa lỗi\n\n- Sửa nhiều chuỗi tiếng Việt dịch sai hoặc còn lẫn tiếng Anh (xuất cuộc trò chuyện, tập lệnh, trình điều khiển, tên các CLI AI, nhóm xuất dữ liệu sang cơ sở dữ liệu và một số chuỗi khác).\n",
+  "pub_date": "2026-11-14T22:54:03Z",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY2V1cVhXaklMODhFM1RoZGtuTndCZlUyZTRFWmxIcm1NcG9QVVJCVWxpYTdTOS9hTXZnTmw5MUxWcW1hZi9vL2FKQ0tUMGFPK0RHZVd2RUFyT3E2aFI0allubHEwaEFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0Njk2NzQ2CWZpbGU6TS1BZ2VudF8wLjYuNzArMV94NjQtc2V0dXAuZXhlCldpZ3B6eE4xenNwY1NCV3FEaWVjVHdaK25YT1NCcUcyU2xMVmxqSllQN3IvUnJ2S3RBdU5QQnJ5b0NRdy83ME5iRzlIZUdESFlncEUwdGVhcmV2ZkRRPT0K",
+      "url": "https://github.com/ducnhung70/M-Agent/releases/download/v0.6.70.1/M-Agent_0.6.70.1_x64-setup.exe"
+    },
+    "windows-x86_64-nsis": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY2V1cVhXaklMODhFM1RoZGtuTndCZlUyZTRFWmxIcm1NcG9QVVJCVWxpYTdTOS9hTXZnTmw5MUxWcW1hZi9vL2FKQ0tUMGFPK0RHZVd2RUFyT3E2aFI0allubHEwaEFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0Njk2NzQ2CWZpbGU6TS1BZ2VudF8wLjYuNzArMV94NjQtc2V0dXAuZXhlCldpZ3B6eE4xenNwY1NCV3FEaWVjVHdaK25YT1NCcUcyU2xMVmxqSllQN3IvUnJ2S3RBdU5QQnJ5b0NRdy83ME5iRzlIZUdESFlncEUwdGVhcmV2ZkRRPT0K",
+      "url": "https://github.com/ducnhung70/M-Agent/releases/download/v0.6.70.1/M-Agent_0.6.70.1_x64-setup.exe"
+    },
+    "windows-x86_64-msi": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY2V1cVhXaklMODNmbG9TTjd4dHVSWndNK1ZTK0s5eEFsQnJ0bDRES1hySS9mZXljdWVwdW55ZmFmaTFuams3TnZ1SUg5Y3Ywc1htTEFOUHJGTDB0L1dlSjlacDBna1FVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0Njk2NzQ2CWZpbGU6TS1BZ2VudF8wLjYuNzArMV94NjRfZW4tVVMubXNpCmJGUUdZeWw2ZGY1YllTcEo3YTIvMldiOHlxcmZ2R0lraHRqRW43VWx5cFZQZHdhWWtVb0xpRndETXlQZDdHbTF3QUdSOHF2Qm1XRGNiYkFTYi9uOEFnPT0K",
+      "url": "https://github.com/ducnhung70/M-Agent/releases/download/v0.6.70.1/M-Agent_0.6.70.1_x64_en-US.msi"
+    }
+  }
+}
