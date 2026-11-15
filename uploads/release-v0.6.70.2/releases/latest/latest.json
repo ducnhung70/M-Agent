@@ -1,0 +1,19 @@
+{
+  "version": "0.6.70+2",
+  "notes": "# M-Agent v0.6.70.2\n\n## Cải tiến\n\n- Lưới dữ liệu: tiêu đề cột đang được lọc có biểu tượng phễu và có thể tắt lọc ngay từng cột; sao chép SQL truy vấn chỉ gồm các cột đang hiển thị; ô tìm kiếm có thể kéo di chuyển; danh sách trường WHERE theo đúng thứ tự cột bạn đã sắp xếp.\n- Redis: lọc khóa theo kiểu dữ liệu; mục Stream hiện thời gian suy ra từ ID.\n- PostgreSQL: xem Row-Level Security từ thanh bên, liệt kê hàm tổng hợp tự định nghĩa, hiện tùy chọn của sequence và có mẫu tạo sequence; giữ chú thích của view và cột khi xuất DDL.\n- Oracle: xem quyền trên bảng, xuất định nghĩa đối tượng ra tệp SQL, biên dịch lại đối tượng không hợp lệ ngay từ trình duyệt đối tượng.\n- Kafka: tùy chọn nạp danh sách chủ đề thủ công cho từng kết nối.\n- Thanh bên: thêm phím tắt tạo bảng và tạo cơ sở dữ liệu.\n- Trình soạn thảo: cấu hình phím chọn gợi ý trước/sau; MySQL gợi ý nhanh phép so sánh chuỗi trong WHERE.\n- Thư viện SQL: truy vấn mới được nhóm theo cơ sở dữ liệu và tô màu theo kết nối.\n- Tham số SQL: xóa lịch sử giá trị bằng một lần nhấp.\n- Thời gian chạy từng câu lệnh hiển thị theo đơn vị phù hợp.\n\n## Sửa lỗi\n\n- MySQL: tab giữ nguyên phiên làm việc (biến, bảng tạm, giao dịch) khi đổi cơ sở dữ liệu.\n- Oracle và SQL Server: DDL và danh sách cột của synonym hiện đúng đối tượng gốc.\n- Cập nhật: tự thử lại khi Windows tạm thời khóa tệp gói cập nhật; giữ chiều cao Trung tâm cập nhật ổn định.\n- Trình soạn thảo: bảng xem nhanh cấu trúc nằm dưới các hộp thoại; PostgreSQL gợi ý bảng ở mọi schema khi chưa chọn schema.\n- Lưới dữ liệu: giữ bố cục cột khi đổi bộ lọc truy vấn; không đếm lại tổng dòng sau khi nối thêm kết quả.\n- Sao chép sang cơ sở dữ liệu khác và so sánh dữ liệu Teradata phân trang đúng.\n- Một số lỗi giao diện khác: nút điều chỉnh cột, chiều rộng cửa sổ tối thiểu, thanh kéo chia khung trên nền sáng.\n",
+  "pub_date": "2026-11-15T18:47:30Z",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY2V1cVhXaklMODZxby9oSXM1TDZlNURxYk8xeTNZUWFlU1NJL2ExVjVqb2VBdFpVdWxnSDJRcUZaV2F3THpXM3RvdHphcG45ZWhJRnRHSkJBc3RFYWNMWjgwclN2M0FFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NzY3NzkyCWZpbGU6TS1BZ2VudF8wLjYuNzArMl94NjQtc2V0dXAuZXhlCkw3aU9QczlRR0wzcW5kYmw2eTF5NjJUSTZrVm53dmdrNTZ3SnFqUDBPOU5hNzRrVE5SQ29wT0d5emxQUjJFcXhuMy83L1FyUFd2bHFPbk1oZHdaMEF3PT0K",
+      "url": "https://github.com/ducnhung70/M-Agent/releases/download/v0.6.70.2/M-Agent_0.6.70.2_x64-setup.exe"
+    },
+    "windows-x86_64-nsis": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY2V1cVhXaklMODZxby9oSXM1TDZlNURxYk8xeTNZUWFlU1NJL2ExVjVqb2VBdFpVdWxnSDJRcUZaV2F3THpXM3RvdHphcG45ZWhJRnRHSkJBc3RFYWNMWjgwclN2M0FFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NzY3NzkyCWZpbGU6TS1BZ2VudF8wLjYuNzArMl94NjQtc2V0dXAuZXhlCkw3aU9QczlRR0wzcW5kYmw2eTF5NjJUSTZrVm53dmdrNTZ3SnFqUDBPOU5hNzRrVE5SQ29wT0d5emxQUjJFcXhuMy83L1FyUFd2bHFPbk1oZHdaMEF3PT0K",
+      "url": "https://github.com/ducnhung70/M-Agent/releases/download/v0.6.70.2/M-Agent_0.6.70.2_x64-setup.exe"
+    },
+    "windows-x86_64-msi": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY2V1cVhXaklMODE1OFF5MzVnWWV3Y1lDY3NTdUdUdno3Ykt4Qkp3VkxMTTRoUjFYaC9RM3ZjcE5PTVpRc3pESlJ3a2RpNmdsSURRUXRFVEpkWXc5eDc4UTVNRGt4WEFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NzY3NzkyCWZpbGU6TS1BZ2VudF8wLjYuNzArMl94NjRfZW4tVVMubXNpCjlCbWI4WjJxZk5VQUE4OTl1eTBrS3pUdzB5TjRMWVJ2Q2tUMERKTDZzbGVvaEpua1dYVzlaYkVqa3Q1MmI0UmlOL2g0Zm45QTkyVHdNdzEvNVJyL0R3PT0K",
+      "url": "https://github.com/ducnhung70/M-Agent/releases/download/v0.6.70.2/M-Agent_0.6.70.2_x64_en-US.msi"
+    }
+  }
+}
