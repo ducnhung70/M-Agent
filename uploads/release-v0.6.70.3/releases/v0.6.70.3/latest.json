@@ -1,0 +1,19 @@
+{
+  "version": "0.6.70+3",
+  "notes": "# M-Agent v0.6.70.3\n\n## Cải tiến\n\n- Thanh công cụ: tùy chỉnh hiển thị và kéo thả thay đổi thứ tự các nút theo từng nhóm; hiển thị tiến độ tác vụ.\n- Tìm nhanh (Quick Open): giao diện mới có bộ lọc theo loại, nguồn và phạm vi kết nối, xem trước kết quả, tìm trong nội dung tệp SQL và các lệnh gần đây.\n- Lưới dữ liệu: hỏi xác nhận trước khi lưu thứ tự cột mới cho chế độ xem dữ liệu của bảng.\n- Xuất cơ sở dữ liệu: giới hạn số dòng xuất cho mỗi bảng, có thể chọn cột và chiều sắp xếp; khôi phục các tác vụ xuất nền cùng nhật ký sau khi ứng dụng bị đóng đột ngột.\n- Hỗ trợ thêm Transwarp Inceptor.\n- Biểu tượng và phím tắt của nút tạo truy vấn mới được thống nhất.\n\n## Sửa lỗi\n\n- Dameng: dùng metadata JDBC khi không đọc được danh sách đối tượng hệ thống.\n- PostgreSQL/GaussDB: liệt kê cột đúng với GaussDB.\n- InfluxDB: hiển thị lỗi câu lệnh mà máy chủ trả về kèm mã thành công.\n- Quick Open: vị trí bôi sáng đúng với văn bản Unicode.\n",
+  "pub_date": "2026-11-16T04:31:43Z",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY2V1cVhXaklMOHdzMmluQU9WSGlKZXFKOWlzZElUMVpOMSs4TDB3TDEwWStzM0xjUlJzcUZPZXppVkJCZG1UQ1hJN3poMS9EZXpFNjFlL1Y3UnZmM0hibjBUTEhpOHdJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0ODAzNDc2CWZpbGU6TS1BZ2VudF8wLjYuNzArM194NjQtc2V0dXAuZXhlCmxEb2dJNTRSUGVFeUZxZ0drRDQyS1hkUXFWeHVONnAxZUFSVDFvenlOclpjOGo4b01UOXFIdEJKeEV2cHVkWGtyMVhvNitmK1M5QVVFUldSVFUwWkFnPT0K",
+      "url": "https://github.com/ducnhung70/M-Agent/releases/download/v0.6.70.3/M-Agent_0.6.70.3_x64-setup.exe"
+    },
+    "windows-x86_64-nsis": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY2V1cVhXaklMOHdzMmluQU9WSGlKZXFKOWlzZElUMVpOMSs4TDB3TDEwWStzM0xjUlJzcUZPZXppVkJCZG1UQ1hJN3poMS9EZXpFNjFlL1Y3UnZmM0hibjBUTEhpOHdJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0ODAzNDc2CWZpbGU6TS1BZ2VudF8wLjYuNzArM194NjQtc2V0dXAuZXhlCmxEb2dJNTRSUGVFeUZxZ0drRDQyS1hkUXFWeHVONnAxZUFSVDFvenlOclpjOGo4b01UOXFIdEJKeEV2cHVkWGtyMVhvNitmK1M5QVVFUldSVFUwWkFnPT0K",
+      "url": "https://github.com/ducnhung70/M-Agent/releases/download/v0.6.70.3/M-Agent_0.6.70.3_x64-setup.exe"
+    },
+    "windows-x86_64-msi": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY2V1cVhXaklMODhJZGVZSnRIT1pWZXk4TkhDVStGUHN1U1lkdCtMOEsra1lYdzlqVU41aHkrMG1pcVFPZlZVWUNGclVRRWVGdVB1SGNZR093RTAwaWozME5TZXZsSGdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0ODAzNDc2CWZpbGU6TS1BZ2VudF8wLjYuNzArM194NjRfZW4tVVMubXNpCmNGQStubVFkTmlBOCtOcHovTjVWRmlDcDhERkxDQ1pYd2o5QTd0UStzWVc4Y2RsYzJLanhnY3BTSER2SFhvQWQvbkxRYzFESnlPOFVXd2txUWNBU0F3PT0K",
+      "url": "https://github.com/ducnhung70/M-Agent/releases/download/v0.6.70.3/M-Agent_0.6.70.3_x64_en-US.msi"
+    }
+  }
+}
