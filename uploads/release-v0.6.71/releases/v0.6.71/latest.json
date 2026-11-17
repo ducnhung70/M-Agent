@@ -1,0 +1,19 @@
+{
+  "version": "0.6.71",
+  "notes": "# M-Agent v0.6.71\n\n## Cải tiến\n\n- Bộ nhớ AI: bản ghi nhớ dạng công thức (recipe) và bài học (lesson) nay nhớ các bảng và cột mà SQL phụ thuộc. Khi cấu trúc bảng thay đổi, bản ghi được đánh dấu \"Cần kiểm tra lại\" và AI phải kiểm tra cấu trúc, chạy lại SQL trước khi dùng. Không có bản ghi nào bị xóa tự động.\n- Bộ nhớ AI: mỗi lần sửa hoặc xóa đều được lưu lịch sử, có thể xem và khôi phục ngay trong phần cài đặt. Có thêm nút \"Dọn dẹp\" để AI gộp các ghi nhớ trùng nhau trong một thư mục.\n- Bộ nhớ AI: ghi nhớ có thể đặt riêng cho một agent. Agent khác không thấy và không ghi đè được; bạn có thể chia sẻ cho mọi agent ngay trong cài đặt.\n- Bộ nhớ AI: thêm tùy chọn tìm kiếm theo ngữ nghĩa (tắt mặc định) để tìm ra ghi nhớ viết bằng cách diễn đạt hoặc ngôn ngữ khác, ví dụ \"doanh thu\" và \"revenue\". Nội dung chỉ được gửi đến dịch vụ bạn tự khai báo, và khi dịch vụ lỗi thì tìm kiếm theo từ khóa vẫn hoạt động như cũ.\n- Bộ nhớ AI: thêm mục đánh giá chất lượng tìm kiếm ghi nhớ với tỷ lệ tìm đúng, độ chính xác, số ghi nhớ lỗi thời, số ghi nhớ trùng và lịch sử các lần chạy.\n- Bài học của AI được phân loại theo loại lỗi SQL (cú pháp, cấu trúc, phương ngữ, kiểu dữ liệu, logic) và có thể liên kết với công thức liên quan. Lỗi kết nối, quyền truy cập và dữ liệu không được lưu thành bài học.\n- Trợ lý AI trên SQLite: công cụ xem cột đọc đúng bảng khi tên bảng có ký tự đặc biệt hoặc có tiền tố schema không tồn tại.\n- Gợi ý chữ ký thủ tục khi gõ lệnh gọi, và ghi chú cột của SQL Server hiển thị trong gợi ý hoàn thành mã.\n- Lưới dữ liệu: xem nhanh một dòng dưới dạng JSON.\n- Xuất cấu hình: thêm ô tìm kiếm trong danh sách.\n- Menu chuột phải: thêm lệnh sao chép SQL được sinh ra.\n\n## Sửa lỗi\n\n- Mở thủ tục SQL Server rất lớn không còn làm tiến trình WebView tăng cao và đơ phần mềm. Chỉ các câu truy vấn đang hiển thị được phân tích.\n- Gợi ý hoàn thành mã tôn trọng phạm vi của khối truy vấn, kể cả truy vấn con sau JOIN hoặc APPLY.\n- Kết nối JDBC: Derby nhúng dùng chung một JVM nên không còn lỗi khi mở nhiều kết nối.\n",
+  "pub_date": "2026-11-17T07:31:44Z",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY2V1cVhXaklMODlWKzMvbmRTOGZlTUJraHBqbGRnZXBZMkZxNUlYb3Q0NUs2ZUdiam5ycE53TUxDcy9ueEViMG9xUXJaV2pPSmxxRVQ1dVJWbnZQbmhCUjBCYmpldVFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0OTAwNTYzCWZpbGU6TS1BZ2VudF8wLjYuNzFfeDY0LXNldHVwLmV4ZQpiQVpnTUNxV1lSSHJ3VXBoOGhaS3NlU2xRQkVKVkx3UDBaZDlXQlhSN0dueE4rdlBtWmlNaG5zd1ZnV2pOR3BtTGRzMjdZMEhNdUVoMnNtQ3N4T1ZDUT09Cg==",
+      "url": "https://github.com/ducnhung70/M-Agent/releases/download/v0.6.71/M-Agent_0.6.71_x64-setup.exe"
+    },
+    "windows-x86_64-nsis": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY2V1cVhXaklMODlWKzMvbmRTOGZlTUJraHBqbGRnZXBZMkZxNUlYb3Q0NUs2ZUdiam5ycE53TUxDcy9ueEViMG9xUXJaV2pPSmxxRVQ1dVJWbnZQbmhCUjBCYmpldVFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0OTAwNTYzCWZpbGU6TS1BZ2VudF8wLjYuNzFfeDY0LXNldHVwLmV4ZQpiQVpnTUNxV1lSSHJ3VXBoOGhaS3NlU2xRQkVKVkx3UDBaZDlXQlhSN0dueE4rdlBtWmlNaG5zd1ZnV2pOR3BtTGRzMjdZMEhNdUVoMnNtQ3N4T1ZDUT09Cg==",
+      "url": "https://github.com/ducnhung70/M-Agent/releases/download/v0.6.71/M-Agent_0.6.71_x64-setup.exe"
+    },
+    "windows-x86_64-msi": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY2V1cVhXaklMODk1NDJEeURPa3Z4bDZuOTFTdEU1QmlGRVBGcXZQc1I0SC9nYnV0eWV1dkN2am15RG44QXB5NmZrTmRVV1UycllsRUNYemk4TkVadHlsMnROZzYvdlEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0OTAwNTYzCWZpbGU6TS1BZ2VudF8wLjYuNzFfeDY0X2VuLVVTLm1zaQo4SEZlYm5GVTVIV2xRSTQ4SEx2cGVyVStnUmNiZ2hjZHNtM2tiZ2lzZlVFbnc0aEY4Z2lOa0p1aG9kdDRob2x2NTgvRHdxbGxPaFN2TzFKaU56dUVCUT09Cg==",
+      "url": "https://github.com/ducnhung70/M-Agent/releases/download/v0.6.71/M-Agent_0.6.71_x64_en-US.msi"
+    }
+  }
+}
