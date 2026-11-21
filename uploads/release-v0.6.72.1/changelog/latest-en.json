@@ -1,0 +1,19 @@
+{
+  "version": "0.6.72+1",
+  "notes": "# M-Agent v0.6.72.1\n\n## Sửa lỗi\n\n- Bấm nút X lại đóng được cửa sổ M-Agent; hủy thoát ứng dụng cũng hoạt động trở lại.\n- Lưới dữ liệu áp dụng lại phông chữ, cỡ chữ và chiều cao dòng theo cài đặt.\n- Khung viền cửa sổ hiển thị trở lại.\n- Trình xem giá trị Redis dùng phông chữ của trình soạn thảo.\n- Cài đặt quyền mặc định của MCP hiện rõ lựa chọn đang chọn.\n- Màu chữ báo lỗi trong trình soạn SQL theo đúng màu của theme.\n- Cửa sổ xem trước khi kéo tab không còn chặn phím Esc.\n- Trình gỡ lỗi PL/SQL của Oracle: đặt, xóa, bật và tắt breakpoint không còn báo lỗi.\n- Cài đặt M-Agent MCP từ ứng dụng hoặc bằng lệnh `install-mcp.ps1` không còn báo \"Unable to resolve a release\" trên Windows PowerShell 5.1. Trình cài đặt đọc phiên bản MCP từ bản phát hành mới nhất nên không còn phụ thuộc vào giới hạn số lần gọi GitHub API.\n",
+  "pub_date": "2026-11-21T06:48:30Z",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY2V1cVhXaklMODlHZU56akVkVnFibmUwOE0yNEN6d0kvYVlNL0Eza3YrTWE4MEpzME5mOC9MSTJ5MVY5dWpuOFZnYXVVZGJ3SGh4amZhMDBSc05Dakh1YUhiODdUOEFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MjQzNjU3CWZpbGU6TS1BZ2VudF8wLjYuNzIrMV94NjQtc2V0dXAuZXhlCmQwK0p0RTZYNkxVT2VLNzNJdEhack9OM3VGTGI0OVA3RHBPR3FLSGJaZkZOUkFvbldOQlpmMjM0Y0tvaFVyMjVGa2VlY2ZMSkNmR0lDNDkveE1GTEJBPT0K",
+      "url": "https://github.com/ducnhung70/M-Agent/releases/download/v0.6.72.1/M-Agent_0.6.72.1_x64-setup.exe"
+    },
+    "windows-x86_64-nsis": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY2V1cVhXaklMODlHZU56akVkVnFibmUwOE0yNEN6d0kvYVlNL0Eza3YrTWE4MEpzME5mOC9MSTJ5MVY5dWpuOFZnYXVVZGJ3SGh4amZhMDBSc05Dakh1YUhiODdUOEFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MjQzNjU3CWZpbGU6TS1BZ2VudF8wLjYuNzIrMV94NjQtc2V0dXAuZXhlCmQwK0p0RTZYNkxVT2VLNzNJdEhack9OM3VGTGI0OVA3RHBPR3FLSGJaZkZOUkFvbldOQlpmMjM0Y0tvaFVyMjVGa2VlY2ZMSkNmR0lDNDkveE1GTEJBPT0K",
+      "url": "https://github.com/ducnhung70/M-Agent/releases/download/v0.6.72.1/M-Agent_0.6.72.1_x64-setup.exe"
+    },
+    "windows-x86_64-msi": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY2V1cVhXaklMODZaT1E1UXk4MGpVeGxPakJhcVlpZkFiMjRiQk1BaStnMWVGV29Gci9QTHJJQVBLejJreWNxSVdQT2xxNHlkOTJiMHFBbVhabWZyT2Z3NmwyOVk3MVF3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MjQzNjU3CWZpbGU6TS1BZ2VudF8wLjYuNzIrMV94NjRfZW4tVVMubXNpCnVGY0RxRTNIelh6SHdZQUcxNWlUTmltMmJhZ3RpVVVjWWVjQlovYUphc2xnMGFqaUhLZkFiWU5DYXNGdVl3d1NIZnZJWmsxa0hpbFJERWhvcEFBN0R3PT0K",
+      "url": "https://github.com/ducnhung70/M-Agent/releases/download/v0.6.72.1/M-Agent_0.6.72.1_x64_en-US.msi"
+    }
+  }
+}
