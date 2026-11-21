@@ -1,0 +1,19 @@
+{
+  "version": "0.6.72+2",
+  "notes": "# M-Agent v0.6.72.2\n\n## Cải tiến\n\n- Dán dữ liệu từ Excel vào lưới: ô có dấu ngoặc kép, xuống dòng hoặc ký tự tab bên trong được tách đúng thành một ô.\n- Lịch sử truy vấn hiển thị câu SQL của mỗi lần gọi MCP trong một khối riêng, dễ đọc và sao chép.\n- Lỗi khi MCP đang chạy ở chế độ chỉ đọc giờ giải thích rõ lý do và cách bật quyền ghi.\n- Menu chuột phải của trình soạn SQL gom các lệnh chạy script vào một nhóm.\n\n## Sửa lỗi\n\n- Bấm X hoặc thoát M-Agent: khi cài đặt giữ bản nháp SQL, ứng dụng không còn hỏi lưu mà giữ nguyên SQL chưa lưu cho lần mở sau. Đóng một cửa sổ tab riêng có SQL chưa lưu vẫn luôn hỏi trước khi đóng.\n- Hộp thoại so sánh schema nhớ đúng kích thước và không còn tự thu nhỏ sau mỗi lần mở.\n- Thanh công cụ trở lại dạng đầy đủ khi khung soạn thảo được nới rộng lại.\n- Bộ lọc giá trị trong lưới hiển thị tóm tắt điều kiện ở cả chế độ lọc theo điều kiện và lọc theo chữ.\n- Redis: các nhóm khóa đang mở được nạp lại sau khi làm mới danh sách khóa.\n- PostgreSQL: sửa chú thích của view dùng đúng câu lệnh dành cho view.\n- DB2: số thập phân trong kết quả truy vấn giữ nguyên giá trị.\n- Ô tìm kiếm trong Cài đặt không còn mất bo góc sau khi hết tô sáng.\n- MCP kiểm tra chặt hơn phạm vi của câu lệnh có CTE khi nằm trong EXPLAIN hoặc INSERT.\n\n## Thay đổi cần lưu ý\n\n- Khi đặt biến môi trường `M_AGENT_MCP_ALLOW_WRITES=0`, tiến trình M-Agent MCP luôn chạy ở chế độ chỉ đọc, kể cả khi kết nối hoặc cài đặt trong ứng dụng cho phép ghi. Muốn MCP ghi dữ liệu, hãy bỏ biến này hoặc đặt giá trị khác `0`.\n",
+  "pub_date": "2026-11-21T15:34:13Z",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY2V1cVhXaklMODA0NmxUTnk2UjVDZDJ2a2FzelFiNDdvSGhmUlZzSzRkMU54eS8xNlBURUYrSFBudXhWT2YwVFZ0Y3ZhZEc1SHkvTnM3amF3L1NmcTM0bEF4T0paZUFnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1Mjc1MjI2CWZpbGU6TS1BZ2VudF8wLjYuNzIrMl94NjQtc2V0dXAuZXhlCjE2M2hjWUthdlFyRncwR0R5ZlFvM253UEVTZTQycTlaNWlHMXhLT2hMN1Q2eWtYQ0pneUdjVE5RdUlOQ0pVc1o3bjZMNzZzRC9PMlBTZndGYzZoM0JBPT0K",
+      "url": "https://github.com/ducnhung70/M-Agent/releases/download/v0.6.72.2/M-Agent_0.6.72.2_x64-setup.exe"
+    },
+    "windows-x86_64-nsis": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY2V1cVhXaklMODA0NmxUTnk2UjVDZDJ2a2FzelFiNDdvSGhmUlZzSzRkMU54eS8xNlBURUYrSFBudXhWT2YwVFZ0Y3ZhZEc1SHkvTnM3amF3L1NmcTM0bEF4T0paZUFnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1Mjc1MjI2CWZpbGU6TS1BZ2VudF8wLjYuNzIrMl94NjQtc2V0dXAuZXhlCjE2M2hjWUthdlFyRncwR0R5ZlFvM253UEVTZTQycTlaNWlHMXhLT2hMN1Q2eWtYQ0pneUdjVE5RdUlOQ0pVc1o3bjZMNzZzRC9PMlBTZndGYzZoM0JBPT0K",
+      "url": "https://github.com/ducnhung70/M-Agent/releases/download/v0.6.72.2/M-Agent_0.6.72.2_x64-setup.exe"
+    },
+    "windows-x86_64-msi": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY2V1cVhXaklMODJGNjI3b1RRak0yYkVxY3RUVnoxY296dW84MWZ2MkFWV0MzK00zSTJnZzU2cVR2ZDkxTmpVMFV1TmFCQ3lZaDF4d1BVeG4vS2xGdVRLOHVTZzBGSGc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1Mjc1MjI2CWZpbGU6TS1BZ2VudF8wLjYuNzIrMl94NjRfZW4tVVMubXNpCk1jRm1CSmF3clB2aE5GWUo1Z3hra2VOa293b3NGbUQxQ2Q1WGQyZWptQ0dqNkFxcDU3bkx6V2tKV1B0WjR1VmJMQXFTWFpRZEl3cmpoeDRVWHMzbkNRPT0K",
+      "url": "https://github.com/ducnhung70/M-Agent/releases/download/v0.6.72.2/M-Agent_0.6.72.2_x64_en-US.msi"
+    }
+  }
+}
