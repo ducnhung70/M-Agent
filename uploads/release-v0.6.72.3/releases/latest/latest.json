@@ -1,0 +1,19 @@
+{
+  "version": "0.6.72+3",
+  "notes": "# M-Agent v0.6.72.3\n\n## Cải tiến\n\n- Thêm nền động cho ba theme mới: Cosmic Galaxy, Hội An và Giáng sinh.\n- Memory AI đã xóa khôi phục được trong 30 ngày, sau đó tự xóa hẳn.\n\n## Sửa lỗi\n\n- Sửa lỗi đăng nhập web có thể bị khóa mãi sau nhiều lần nhập sai.\n- Tìm kiếm memory AI không còn mất chỉ mục khi database đang bận.\n- Memory AI được gộp khi dọn dẹp sẽ được đánh dấu cần kiểm tra lại nếu câu SQL thay đổi.\n- Khôi phục memory AI giờ báo lỗi rõ khi đã đủ 200 mục.\n",
+  "pub_date": "2026-11-22T14:34:54Z",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY2V1cVhXaklMODR4eWhaY3NNREVvVzNyVHBQWmJ0VXZOclFISlAyU2Z1YStkOUhyTkZHOXNsUitYN0JDamUyRDRmM0hNcTVoM1RrSHMwWlJrNXNqRjAwTHBIa1FVVndFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MzU4MDc0CWZpbGU6TS1BZ2VudF8wLjYuNzIrM194NjQtc2V0dXAuZXhlClFSejBGTUp0Y21kSFNYUCszNzZzVUlCdWlORHpMdHRKdS9INmU1R2ltTmZzSFlQUTBJN2VnREQveFprSkRYSlhlQlB2dVY1Qjk0REFacGpnaHozVEFBPT0K",
+      "url": "https://github.com/ducnhung70/M-Agent/releases/download/v0.6.72.3/M-Agent_0.6.72.3_x64-setup.exe"
+    },
+    "windows-x86_64-nsis": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY2V1cVhXaklMODR4eWhaY3NNREVvVzNyVHBQWmJ0VXZOclFISlAyU2Z1YStkOUhyTkZHOXNsUitYN0JDamUyRDRmM0hNcTVoM1RrSHMwWlJrNXNqRjAwTHBIa1FVVndFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MzU4MDc0CWZpbGU6TS1BZ2VudF8wLjYuNzIrM194NjQtc2V0dXAuZXhlClFSejBGTUp0Y21kSFNYUCszNzZzVUlCdWlORHpMdHRKdS9INmU1R2ltTmZzSFlQUTBJN2VnREQveFprSkRYSlhlQlB2dVY1Qjk0REFacGpnaHozVEFBPT0K",
+      "url": "https://github.com/ducnhung70/M-Agent/releases/download/v0.6.72.3/M-Agent_0.6.72.3_x64-setup.exe"
+    },
+    "windows-x86_64-msi": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY2V1cVhXaklMOHpYRUovRXZxNll0QVZSWUdFS096TUZad00ycXJqZlBuS3NBcWlOeHZxbmNGS051WHdMYUVROERTZEFxeXEzSTR4VHJid09qM0xyRk9uOFJrdXNtb0FvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MzU4MDc0CWZpbGU6TS1BZ2VudF8wLjYuNzIrM194NjRfZW4tVVMubXNpCnhFY08yR3paVHdpVlovZVBZaFltWUJoeUpkOXhVVzcrMFVzcENBWXRyY1ZOVXdTMTJRYWNvYnVtRnZQaUVpalNrbTNuNEUyY2V1bEo3YkxyMTFhSEJnPT0K",
+      "url": "https://github.com/ducnhung70/M-Agent/releases/download/v0.6.72.3/M-Agent_0.6.72.3_x64_en-US.msi"
+    }
+  }
+}
