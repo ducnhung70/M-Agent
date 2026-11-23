@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updatedAt": "2026-11-23T14:27:05Z",
+  "updatedAt": "2026-11-23T14:41:10Z",
   "items": [
     {
       "id": "m-agent-otter-pack",
@@ -1453,8 +1453,8 @@
         },
         {
           "path": "changelog/releases-en.json",
-          "size": 364108,
-          "sha256": "0e4a3c9a5098fc3cb34270ec387a6bbac5a3f568ffb3f3311f678cf523b5122e",
+          "size": 365922,
+          "sha256": "f72672baa9cf08941f86fdf45fefc966cf6531ee2395b4e0b79afacaa738415d",
           "publishPath": "changelog/releases-en.json"
         }
       ]

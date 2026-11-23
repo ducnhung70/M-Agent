@@ -6,7 +6,158 @@
       "name": "M-Agent 0.6.72.4",
       "date": "2026-11-23",
       "markdown": "## Tính năng mới\n\n- Xem và sửa thuộc tính sequence của PostgreSQL (giá trị bắt đầu, bước tăng, giới hạn, cache, đặt lại giá trị tiếp theo).\n- Giải mã giá trị ô dữ liệu bằng plugin; ô BLOB chứa HTML được xem trước an toàn.\n- Bảng chi tiết ô có thêm thẻ \"Dòng được tham chiếu\" để xem nhanh dòng mà khóa ngoại trỏ tới.\n- So sánh nhiều schema cùng lúc trong So sánh cấu trúc.\n- So sánh dữ liệu cho phép bỏ qua cột (chung hoặc theo từng bảng), có nút bỏ qua nhanh các cột ngày tạo/ngày sửa.\n- Nhập bảng: lưu và dùng lại mẫu ánh xạ cột.\n- Chuyển dữ liệu: đổi tên bảng đích.\n- Thực thi file SQL: tạo database đích ngay trong hộp thoại.\n- MySQL: phân tích, kiểm tra, tối ưu và sửa bảng từ menu chuột phải; xem trạng thái khóa tài khoản người dùng.\n- Tạo mật khẩu ngẫu nhiên khi tạo người dùng mới.\n- Thêm snippet từ menu chuột phải của trình soạn SQL; snippet hỗ trợ `$0` để đặt vị trí con trỏ.\n- Phím tắt mới: commit giao dịch đang mở, và Alt+1..5 để sao chép giá trị cột 1–5 của dòng đầu kết quả.\n- Cài đặt mới: thời gian chờ trước khi mở danh sách gợi ý (mặc định 30 ms), dấu phân cách hàng nghìn trong lưới, số hàng tối đa khi tab xuống dòng.\n- Thư viện SQL và cây file SQL có thể nhóm theo kết nối.\n- Nhập cấu hình kết nối từ SQLark.\n- Xem kế hoạch thực thi ước tính cho DuckDB và SQLite.\n- SQL Server: kiểm tra chứng chỉ máy chủ khi đặt `trustServerCertificate=false`.\n\n## Cải tiến\n\n- Gợi ý cột hiện tối đa 200 cột thay vì 20–50, cột hay dùng vẫn xếp lên đầu.\n- Gợi ý biết các bảng tạo bởi câu CREATE TABLE chưa chạy trong cùng file.\n- Gợi ý tên bảng sau `DROP TABLE IF EXISTS`.\n- Trình soạn SQL gõ và kéo chọn nhanh hơn với file dài.\n- Thanh cuộn của lưới kết quả và trình soạn SQL dùng chung một kiểu.\n- Đọc metadata cho gợi ý tự thử lại khi kết nối đang bận.\n\n## Sửa lỗi\n\n- Dán văn bản nhiều dòng vào một ô không còn bị tách thành nhiều dòng.\n- Dán thêm dòng vượt quá số dòng hiện có giờ thêm dòng mới đúng cách.\n- MongoDB: xóa tài liệu có khóa \\_id ghép không còn lỗi; ngày tháng và ô có cấu trúc hiển thị đúng.\n- ClickHouse: sửa và xóa dòng luôn được kiểm tra để không ảnh hưởng nhầm nhiều dòng.\n- PostgreSQL: các thao tác ghi trong lưới luôn dùng cùng một phiên kết nối.\n- MySQL: xuất kết quả có bảng tạm hoạt động đúng; xuất UPDATE khi chọn tất cả không còn chỉ lấy trang hiện tại.\n- Oracle: so sánh dữ liệu chèn từng dòng một; gỡ lỗi routine đã lưu trực tiếp từ tab mã nguồn.\n- Kéo thả thư mục SQL và cập nhật danh sách file SQL ngay khi thay đổi.\n- Bảng thông tin bảng hiện lại đúng sau khi chuyển tab.\n- Nhiều sửa lỗi nhỏ khác cho gợi ý SQL, định dạng SQL và các loại cơ sở dữ liệu khác.\n",
-      "sections": "[{\"type\":\"other\",\"title\":\"Tính năng mới\",\"items\":[{\"title\":\"Xem và sửa thuộc tính sequence của PostgreSQL (giá trị bắt đầu, bước tăng, giới hạn, cache, đặt lại giá trị tiếp theo).\",\"desc\":\"\"},{\"title\":\"Giải mã giá trị ô dữ liệu bằng plugin; ô BLOB chứa HTML được xem trước an toàn.\",\"desc\":\"\"},{\"title\":\"Bảng chi tiết ô có thêm thẻ \\\"Dòng được tham chiếu\\\" để xem nhanh dòng mà khóa ngoại trỏ tới.\",\"desc\":\"\"},{\"title\":\"So sánh nhiều schema cùng lúc trong So sánh cấu trúc.\",\"desc\":\"\"},{\"title\":\"So sánh dữ liệu cho phép bỏ qua cột (chung hoặc theo từng bảng), có nút bỏ qua nhanh các cột ngày tạo/ngày sửa.\",\"desc\":\"\"},{\"title\":\"Nhập bảng: lưu và dùng lại mẫu ánh xạ cột.\",\"desc\":\"\"},{\"title\":\"Chuyển dữ liệu: đổi tên bảng đích.\",\"desc\":\"\"},{\"title\":\"Thực thi file SQL: tạo database đích ngay trong hộp thoại.\",\"desc\":\"\"},{\"title\":\"MySQL: phân tích, kiểm tra, tối ưu và sửa bảng từ menu chuột phải; xem trạng thái khóa tài khoản người dùng.\",\"desc\":\"\"},{\"title\":\"Tạo mật khẩu ngẫu nhiên khi tạo người dùng mới.\",\"desc\":\"\"},{\"title\":\"Thêm snippet từ menu chuột phải của trình soạn SQL; snippet hỗ trợ `$0` để đặt vị trí con trỏ.\",\"desc\":\"\"},{\"title\":\"Phím tắt mới: commit giao dịch đang mở, và Alt+1..5 để sao chép giá trị cột 1–5 của dòng đầu kết quả.\",\"desc\":\"\"},{\"title\":\"Cài đặt mới: thời gian chờ trước khi mở danh sách gợi ý (mặc định 30 ms), dấu phân cách hàng nghìn trong lưới, số hàng tối đa khi tab xuống dòng.\",\"desc\":\"\"},{\"title\":\"Thư viện SQL và cây file SQL có thể nhóm theo kết nối.\",\"desc\":\"\"},{\"title\":\"Nhập cấu hình kết nối từ SQLark.\",\"desc\":\"\"},{\"title\":\"Xem kế hoạch thực thi ước tính cho DuckDB và SQLite.\",\"desc\":\"\"},{\"title\":\"SQL Server: kiểm tra chứng chỉ máy chủ khi đặt `trustServerCertificate=false`.\",\"desc\":\"\"}]},{\"type\":\"other\",\"title\":\"Cải tiến\",\"items\":[{\"title\":\"Gợi ý cột hiện tối đa 200 cột thay vì 20–50, cột hay dùng vẫn xếp lên đầu.\",\"desc\":\"\"},{\"title\":\"Gợi ý biết các bảng tạo bởi câu CREATE TABLE chưa chạy trong cùng file.\",\"desc\":\"\"},{\"title\":\"Gợi ý tên bảng sau `DROP TABLE IF EXISTS`.\",\"desc\":\"\"},{\"title\":\"Trình soạn SQL gõ và kéo chọn nhanh hơn với file dài.\",\"desc\":\"\"},{\"title\":\"Thanh cuộn của lưới kết quả và trình soạn SQL dùng chung một kiểu.\",\"desc\":\"\"},{\"title\":\"Đọc metadata cho gợi ý tự thử lại khi kết nối đang bận.\",\"desc\":\"\"}]},{\"type\":\"other\",\"title\":\"Sửa lỗi\",\"items\":[{\"title\":\"Dán văn bản nhiều dòng vào một ô không còn bị tách thành nhiều dòng.\",\"desc\":\"\"},{\"title\":\"Dán thêm dòng vượt quá số dòng hiện có giờ thêm dòng mới đúng cách.\",\"desc\":\"\"},{\"title\":\"MongoDB: xóa tài liệu có khóa \\\\_id ghép không còn lỗi; ngày tháng và ô có cấu trúc hiển thị đúng.\",\"desc\":\"\"},{\"title\":\"ClickHouse: sửa và xóa dòng luôn được kiểm tra để không ảnh hưởng nhầm nhiều dòng.\",\"desc\":\"\"},{\"title\":\"PostgreSQL: các thao tác ghi trong lưới luôn dùng cùng một phiên kết nối.\",\"desc\":\"\"},{\"title\":\"MySQL: xuất kết quả có bảng tạm hoạt động đúng; xuất UPDATE khi chọn tất cả không còn chỉ lấy trang hiện tại.\",\"desc\":\"\"},{\"title\":\"Oracle: so sánh dữ liệu chèn từng dòng một; gỡ lỗi routine đã lưu trực tiếp từ tab mã nguồn.\",\"desc\":\"\"},{\"title\":\"Kéo thả thư mục SQL và cập nhật danh sách file SQL ngay khi thay đổi.\",\"desc\":\"\"},{\"title\":\"Bảng thông tin bảng hiện lại đúng sau khi chuyển tab.\",\"desc\":\"\"},{\"title\":\"Nhiều sửa lỗi nhỏ khác cho gợi ý SQL, định dạng SQL và các loại cơ sở dữ liệu khác.\",\"desc\":\"\"}]}]",
+      "sections": [
+        {
+          "type": "other",
+          "title": "Tính năng mới",
+          "items": [
+            {
+              "title": "Xem và sửa thuộc tính sequence của PostgreSQL (giá trị bắt đầu, bước tăng, giới hạn, cache, đặt lại giá trị tiếp theo).",
+              "desc": ""
+            },
+            {
+              "title": "Giải mã giá trị ô dữ liệu bằng plugin; ô BLOB chứa HTML được xem trước an toàn.",
+              "desc": ""
+            },
+            {
+              "title": "Bảng chi tiết ô có thêm thẻ \"Dòng được tham chiếu\" để xem nhanh dòng mà khóa ngoại trỏ tới.",
+              "desc": ""
+            },
+            {
+              "title": "So sánh nhiều schema cùng lúc trong So sánh cấu trúc.",
+              "desc": ""
+            },
+            {
+              "title": "So sánh dữ liệu cho phép bỏ qua cột (chung hoặc theo từng bảng), có nút bỏ qua nhanh các cột ngày tạo/ngày sửa.",
+              "desc": ""
+            },
+            {
+              "title": "Nhập bảng: lưu và dùng lại mẫu ánh xạ cột.",
+              "desc": ""
+            },
+            {
+              "title": "Chuyển dữ liệu: đổi tên bảng đích.",
+              "desc": ""
+            },
+            {
+              "title": "Thực thi file SQL: tạo database đích ngay trong hộp thoại.",
+              "desc": ""
+            },
+            {
+              "title": "MySQL: phân tích, kiểm tra, tối ưu và sửa bảng từ menu chuột phải; xem trạng thái khóa tài khoản người dùng.",
+              "desc": ""
+            },
+            {
+              "title": "Tạo mật khẩu ngẫu nhiên khi tạo người dùng mới.",
+              "desc": ""
+            },
+            {
+              "title": "Thêm snippet từ menu chuột phải của trình soạn SQL; snippet hỗ trợ `$0` để đặt vị trí con trỏ.",
+              "desc": ""
+            },
+            {
+              "title": "Phím tắt mới: commit giao dịch đang mở, và Alt+1..5 để sao chép giá trị cột 1–5 của dòng đầu kết quả.",
+              "desc": ""
+            },
+            {
+              "title": "Cài đặt mới: thời gian chờ trước khi mở danh sách gợi ý (mặc định 30 ms), dấu phân cách hàng nghìn trong lưới, số hàng tối đa khi tab xuống dòng.",
+              "desc": ""
+            },
+            {
+              "title": "Thư viện SQL và cây file SQL có thể nhóm theo kết nối.",
+              "desc": ""
+            },
+            {
+              "title": "Nhập cấu hình kết nối từ SQLark.",
+              "desc": ""
+            },
+            {
+              "title": "Xem kế hoạch thực thi ước tính cho DuckDB và SQLite.",
+              "desc": ""
+            },
+            {
+              "title": "SQL Server: kiểm tra chứng chỉ máy chủ khi đặt `trustServerCertificate=false`.",
+              "desc": ""
+            }
+          ]
+        },
+        {
+          "type": "other",
+          "title": "Cải tiến",
+          "items": [
+            {
+              "title": "Gợi ý cột hiện tối đa 200 cột thay vì 20–50, cột hay dùng vẫn xếp lên đầu.",
+              "desc": ""
+            },
+            {
+              "title": "Gợi ý biết các bảng tạo bởi câu CREATE TABLE chưa chạy trong cùng file.",
+              "desc": ""
+            },
+            {
+              "title": "Gợi ý tên bảng sau `DROP TABLE IF EXISTS`.",
+              "desc": ""
+            },
+            {
+              "title": "Trình soạn SQL gõ và kéo chọn nhanh hơn với file dài.",
+              "desc": ""
+            },
+            {
+              "title": "Thanh cuộn của lưới kết quả và trình soạn SQL dùng chung một kiểu.",
+              "desc": ""
+            },
+            {
+              "title": "Đọc metadata cho gợi ý tự thử lại khi kết nối đang bận.",
+              "desc": ""
+            }
+          ]
+        },
+        {
+          "type": "other",
+          "title": "Sửa lỗi",
+          "items": [
+            {
+              "title": "Dán văn bản nhiều dòng vào một ô không còn bị tách thành nhiều dòng.",
+              "desc": ""
+            },
+            {
+              "title": "Dán thêm dòng vượt quá số dòng hiện có giờ thêm dòng mới đúng cách.",
+              "desc": ""
+            },
+            {
+              "title": "MongoDB: xóa tài liệu có khóa \\_id ghép không còn lỗi; ngày tháng và ô có cấu trúc hiển thị đúng.",
+              "desc": ""
+            },
+            {
+              "title": "ClickHouse: sửa và xóa dòng luôn được kiểm tra để không ảnh hưởng nhầm nhiều dòng.",
+              "desc": ""
+            },
+            {
+              "title": "PostgreSQL: các thao tác ghi trong lưới luôn dùng cùng một phiên kết nối.",
+              "desc": ""
+            },
+            {
+              "title": "MySQL: xuất kết quả có bảng tạm hoạt động đúng; xuất UPDATE khi chọn tất cả không còn chỉ lấy trang hiện tại.",
+              "desc": ""
+            },
+            {
+              "title": "Oracle: so sánh dữ liệu chèn từng dòng một; gỡ lỗi routine đã lưu trực tiếp từ tab mã nguồn.",
+              "desc": ""
+            },
+            {
+              "title": "Kéo thả thư mục SQL và cập nhật danh sách file SQL ngay khi thay đổi.",
+              "desc": ""
+            },
+            {
+              "title": "Bảng thông tin bảng hiện lại đúng sau khi chuyển tab.",
+              "desc": ""
+            },
+            {
+              "title": "Nhiều sửa lỗi nhỏ khác cho gợi ý SQL, định dạng SQL và các loại cơ sở dữ liệu khác.",
+              "desc": ""
+            }
+          ]
+        }
+      ],
       "body": ""
     },
     {
