@@ -1,0 +1,19 @@
+{
+  "version": "0.6.73",
+  "notes": "# M-Agent v0.6.73\n\n## Tính năng mới\n\n- Tô sáng cặp BEGIN/END tương ứng khi đặt con trỏ lên một trong hai từ khóa.\n- Quay về vị trí sửa gần nhất trong trình soạn SQL bằng phím tắt.\n- Phím tắt mới: bật/tắt chú thích dòng rồi chuyển xuống dòng kế tiếp.\n- Shift+Delete / Ctrl+X cắt được cả dòng cuối của tài liệu.\n- Chạy câu lệnh tại con trỏ: chọn được câu lệnh lồng theo từng cấp.\n- Nhấn Enter để chạy trong hộp thoại tham số SQL và để xác nhận hộp thoại danh sách có dấu phân cách.\n- Nhấp đúp vào gợi ý cột để chèn cột đó.\n- Kiểm tra nhiều kết nối cùng lúc từ thanh bên, có tiến trình và nút dừng.\n- Kết nối có thể dùng màu của nhóm chứa nó.\n- Danh sách bảng gần đây có ô tìm kiếm, gồm cả bảng vừa đóng.\n- PostgreSQL: đổi tên schema ngay từ thanh bên.\n- MySQL: tùy chọn hiển thị database hệ thống (information_schema, performance_schema, mysql, sys) cho từng kết nối.\n- Đặt nguồn dữ liệu (kết nối và database mặc định) cho nhiều file SQL trên máy cùng lúc.\n- Chuyển dữ liệu: sao chép và dán cả view.\n- Smart Copy: định dạng riêng khi chỉ sao chép một cột.\n- Mở xem trước văn bản BLOB từ menu chuột phải của lưới.\n- Redis Stream: xem các mục mới nhất trước.\n- Công cụ dòng lệnh: thêm lệnh cài/kiểm tra Skill cho AI agent, xuất schema ra DBML và tài liệu HTML.\n\n## Cải tiến\n\n- Bản nháp SQL bị đóng ngầm được giữ lại sau khi mở lại không gian làm việc.\n- Xuất SQL nhóm các câu lệnh theo bảng.\n- Mở nhanh (Quick Open) khởi động nhanh hơn.\n- Doris: không còn truy vấn các cột information_schema không được hỗ trợ.\n- GoldenDB: kiểm tra kết nối bằng truy vấn thay vì ping.\n\n## Sửa lỗi\n\n- Kiểm tra lỗi SQL nhận đúng bí danh bảng trong phạm vi gần nhất.\n- MySQL: từ chối xem trước thay đổi khi câu SET đọc giá trị vừa gán trước đó trong cùng câu.\n- openGauss: giữ chú thích cột khi đọc metadata dự phòng.\n- MongoDB: tìm đúng tài liệu có \\_id kiểu số.\n- Công cụ AI của plugin dùng đúng cấu hình kết nối đã lưu.\n- Ô chọn kết nối khi xuất sang database có kiểu giống các ô chọn khác.\n",
+  "pub_date": "2026-11-24T11:29:42Z",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY2V1cVhXaklMODBLdjkvSVBscUpxNWttbkp5MVBzNGdraDJWOXYyTlJKdEt6Ymhha3hKSEF0eVdUMDByNVM3ZStLbHloSTYzMG16TXBPeXNMb3Y2NnZhV2xIczh1dXcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NTE5NzU5CWZpbGU6TS1BZ2VudF8wLjYuNzNfeDY0LXNldHVwLmV4ZQpnbDFXbXNyVXBmRWxVai9IV2d4K0VCeG5kbUFxUUU5NS9CVXVXYjNLb01UVkx2RTVQV0JYSkZGVEpLTWhkbGFnZ2RoVTNNVG1DcGxLMmhnYlVYK3lBZz09Cg==",
+      "url": "https://github.com/ducnhung70/M-Agent/releases/download/v0.6.73/M-Agent_0.6.73_x64-setup.exe"
+    },
+    "windows-x86_64-nsis": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY2V1cVhXaklMODBLdjkvSVBscUpxNWttbkp5MVBzNGdraDJWOXYyTlJKdEt6Ymhha3hKSEF0eVdUMDByNVM3ZStLbHloSTYzMG16TXBPeXNMb3Y2NnZhV2xIczh1dXcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NTE5NzU5CWZpbGU6TS1BZ2VudF8wLjYuNzNfeDY0LXNldHVwLmV4ZQpnbDFXbXNyVXBmRWxVai9IV2d4K0VCeG5kbUFxUUU5NS9CVXVXYjNLb01UVkx2RTVQV0JYSkZGVEpLTWhkbGFnZ2RoVTNNVG1DcGxLMmhnYlVYK3lBZz09Cg==",
+      "url": "https://github.com/ducnhung70/M-Agent/releases/download/v0.6.73/M-Agent_0.6.73_x64-setup.exe"
+    },
+    "windows-x86_64-msi": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY2V1cVhXaklMODQ4NkhIaU1lQ01hVzc2UWFSS2RxY1JmZE1sNFhSQzNrcXNkWVd6SU5nYk5DZlRWb1pTbnVodUk0eWRmOVdqY3ZnOWtNNnYwNnhaZkpzTm1YMElyUGdJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NTE5NzU5CWZpbGU6TS1BZ2VudF8wLjYuNzNfeDY0X2VuLVVTLm1zaQpiRUl3Tk9yWkUrdER5T1RBeTRSQlVjL0U3YjlBMTBzT2Zqc1ByQzdneExxWHpFL2ROdEZFcnpReEYvQTdnc1M2RVk4bjJ6eUwvemdsNG04cGlVTk5Edz09Cg==",
+      "url": "https://github.com/ducnhung70/M-Agent/releases/download/v0.6.73/M-Agent_0.6.73_x64_en-US.msi"
+    }
+  }
+}
