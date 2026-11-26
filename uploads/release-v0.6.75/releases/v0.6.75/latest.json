@@ -1,0 +1,19 @@
+{
+  "version": "0.6.75",
+  "notes": "# M-Agent v0.6.75\n\n## Tính năng mới\n\n- MySQL: đổi bộ ký tự (charset), quy tắc đối chiếu (collation) và công cụ lưu trữ (engine) của bảng ngay trong danh sách đối tượng, có hộp thoại xác nhận câu ALTER trước khi chạy.\n- MySQL: đổi bộ ký tự và quy tắc đối chiếu mặc định của database ngay trong danh sách database.\n- Nhấp đúp vào nhóm đối tượng ở thanh bên để mở danh sách đối tượng của nhóm đó.\n- Nhập và xuất snippet SQL dạng JSON (định dạng snippet của VS Code). Prefix trùng được tự đổi tên.\n- Trình soạn SQL: chọn nhanh nội dung bên trong cặp ngoặc vuông và ngoặc nhọn.\n- Kết nối có thêm mục \"Thời gian chờ ghi\" riêng cho các câu lệnh ghi dữ liệu.\n\n## Cải tiến\n\n- Thời gian chờ truy vấn giờ chỉ áp dụng cho câu lệnh đọc (SELECT/SHOW/EXPLAIN). Câu lệnh ghi và câu lệnh thay đổi cấu trúc (CREATE/ALTER/DROP) không còn bị hủy giữa chừng. Khi đặt thời gian chờ ghi, ứng dụng chỉ ngừng chờ và báo câu lệnh vẫn đang chạy trên máy chủ, để bạn kiểm tra dữ liệu trước khi chạy lại.\n- GaussDB: hiển thị đúng phiên bản sản phẩm, kể cả bản vá nóng.\n- Ẩn thanh cuộn ngang của dải tab khi tab xuống dòng hoặc không bị tràn.\n- Hộp thoại xem trước file SQL khi tìm kiếm giữ chiều cao ổn định.\n\n## Sửa lỗi\n\n- Trình sửa cấu trúc bảng: danh sách kiểu dữ liệu và các ô chọn trong lưới không còn tự đóng khi nhấp vào dòng; thanh cuộn dễ kéo hơn.\n- Lưới dữ liệu không còn tạo lại bộ theo dõi kích thước mỗi lần làm mới, giảm giật khi cuộn.\n- PostgreSQL: chuyển dữ liệu với chế độ tạo lại bảng không còn báo nhầm \"bảng không tồn tại\" khi trùng tên chỉ mục hoặc ràng buộc.\n- Kingbase: tạo đúng câu DDL cho sequence.\n- DB2: đọc được danh mục có chú thích chứa ký tự không giải mã được.\n",
+  "pub_date": "2026-11-26T15:02:18Z",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY2V1cVhXaklMODkxUkJKZ0Z4eS9rQ0pNWTVTc0JESnJIWlplL0VCaEk2SUd4SHBKOS9MWXFxS2x2ZU9rS2hJUUNrQTNVZXNTZ3BPdXlKNmZHT2hZZFRXN3pBQ0E5aXc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NzA1MzAxCWZpbGU6TS1BZ2VudF8wLjYuNzVfeDY0LXNldHVwLmV4ZQpMSmt5OWNBdEpyNVlUeDZCWVByaUFsWFQ5OGVhZDU3QTVuVFNnd2t6bnMwWW8zZUgvRDJpTkRTUTdJbTIyd1FTSERuWllxT0U5TFZFSXV1WklQUGJEdz09Cg==",
+      "url": "https://github.com/ducnhung70/M-Agent/releases/download/v0.6.75/M-Agent_0.6.75_x64-setup.exe"
+    },
+    "windows-x86_64-nsis": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY2V1cVhXaklMODkxUkJKZ0Z4eS9rQ0pNWTVTc0JESnJIWlplL0VCaEk2SUd4SHBKOS9MWXFxS2x2ZU9rS2hJUUNrQTNVZXNTZ3BPdXlKNmZHT2hZZFRXN3pBQ0E5aXc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NzA1MzAxCWZpbGU6TS1BZ2VudF8wLjYuNzVfeDY0LXNldHVwLmV4ZQpMSmt5OWNBdEpyNVlUeDZCWVByaUFsWFQ5OGVhZDU3QTVuVFNnd2t6bnMwWW8zZUgvRDJpTkRTUTdJbTIyd1FTSERuWllxT0U5TFZFSXV1WklQUGJEdz09Cg==",
+      "url": "https://github.com/ducnhung70/M-Agent/releases/download/v0.6.75/M-Agent_0.6.75_x64-setup.exe"
+    },
+    "windows-x86_64-msi": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY2V1cVhXaklMODBaWHdRM1lPaUFoTndVcENFeWtKRHRuSzVkb3QzcjhlNXR6WWoyb2trRnlGVWhJeEhNc0krMWc5ekpzSWhKMlRiU2RDd3lyN2NkZTVFZXB6WjN5d1FjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NzA1MzAxCWZpbGU6TS1BZ2VudF8wLjYuNzVfeDY0X2VuLVVTLm1zaQpTdnBRT3NYSXk1Tlh2Q00xbXZ2UFZUMnV5T1U2RmVMRkRhbnk0Vk8renQrVUhMRXMvaWhNOGVIZjhtUVV4R20rbUZMNXVGRm44T2xqTFhoaGx3RDZCdz09Cg==",
+      "url": "https://github.com/ducnhung70/M-Agent/releases/download/v0.6.75/M-Agent_0.6.75_x64_en-US.msi"
+    }
+  }
+}
