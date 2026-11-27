@@ -1,0 +1,19 @@
+{
+  "version": "0.6.75+1",
+  "notes": "# M-Agent v0.6.75.1\n\n## Tính năng mới\n\n- AI: chọn plugin nào được dùng trong từng cuộc trò chuyện (nút \"Công cụ plugin\" ở ô nhập). Mở kết nối plugin không còn tự cho AI dùng nó.\n- AI: ghim cuộc trò chuyện; lịch sử chia nhóm \"Đã ghim\" và \"Gần đây\".\n- Lưu bộ lọc và sắp xếp mặc định cho từng bảng, tự áp dụng khi mở lại bảng.\n- Hình mờ (watermark) trên kết nối: tự động cho database production, tùy chỉnh chữ và cỡ chữ, hoặc tắt.\n- Sao chép DDL không kèm giá trị AUTO_INCREMENT.\n- Sao chép dữ liệu dạng REPLACE INTO.\n- Bộ lọc lưới có thêm \"Chứa\" và \"Không chứa\" không phân biệt hoa thường.\n- Xuất kết quả dạng bảng Markdown xoay ngang.\n- Bấm vào bí danh bảng trong SQL để nhảy tới chỗ khai báo.\n- Oracle: mở thành viên của package sẽ mở thân package và đưa con trỏ tới đúng thành viên đó.\n\n## Cải tiến\n\n- MQTT: danh sách topic đã lưu không bị mất khi lưu lại kết nối.\n- ClickHouse: kiểm tra kết nối chạy được qua proxy chặn kiểu GET.\n- Gợi ý code: khi gõ tiếng Việt có dấu, danh sách gợi ý không bật lên sớm trước khi gõ xong.\n\n## Sửa lỗi\n\n- MCP: báo đúng lỗi khi không đọc được khóa giải mã dữ liệu, thay vì yêu cầu \"mở M-Agent để nâng cấp dữ liệu\". Bản MCP 0.4.147 đọc được khóa trong Windows Credential Manager.\n- Trình soạn SQL: chữ END đứng riêng mà dòng sau bắt đầu bằng IF không còn làm mất dấu gập code và phần tô sáng cặp BEGIN/END.\n- Oracle: sửa lỗi hết thời gian chờ còn sót lại sau khi một lệnh bị hủy.\n- Nhiều sửa lỗi nhỏ khác.\n\n## Cập nhật MCP\n\nSau khi cập nhật, chạy lại `install-mcp.ps1` (hoặc cài lại MCP từ phần cài đặt MCP), rồi khởi động lại ứng dụng dùng MCP (Codex, Claude...). Nếu trình cài báo không thay được file, hãy tắt ứng dụng đó trước.",
+  "pub_date": "2026-11-27T17:50:42Z",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY2V1cVhXaklMODhUb2V3Vk53VzBnakFQUHNYalhPNm1IT3owRHlyMkNxK3BCNGxtZDVUNjNzNmh5LzNvUHd0c2ZRWDdDQjMySWNaUmU3aVVmS1JhaHR3bEZJUVhLUHd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1ODAxMDE1CWZpbGU6TS1BZ2VudF8wLjYuNzUrMV94NjQtc2V0dXAuZXhlCjZlblJDZm9DU3NoMXphaW9HVitMZ2hFY3YzNWtUaGZhYW1VOHFibzIwdUlEVE5PYkpjdVNiV2NPa3dvdFJ1dEhNZGRZanlkSmpVOFVxSzR4OWdIa0F3PT0K",
+      "url": "https://github.com/ducnhung70/M-Agent/releases/download/v0.6.75.1/M-Agent_0.6.75.1_x64-setup.exe"
+    },
+    "windows-x86_64-nsis": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY2V1cVhXaklMODhUb2V3Vk53VzBnakFQUHNYalhPNm1IT3owRHlyMkNxK3BCNGxtZDVUNjNzNmh5LzNvUHd0c2ZRWDdDQjMySWNaUmU3aVVmS1JhaHR3bEZJUVhLUHd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1ODAxMDE1CWZpbGU6TS1BZ2VudF8wLjYuNzUrMV94NjQtc2V0dXAuZXhlCjZlblJDZm9DU3NoMXphaW9HVitMZ2hFY3YzNWtUaGZhYW1VOHFibzIwdUlEVE5PYkpjdVNiV2NPa3dvdFJ1dEhNZGRZanlkSmpVOFVxSzR4OWdIa0F3PT0K",
+      "url": "https://github.com/ducnhung70/M-Agent/releases/download/v0.6.75.1/M-Agent_0.6.75.1_x64-setup.exe"
+    },
+    "windows-x86_64-msi": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY2V1cVhXaklMODJoaVdCTTJkSTlyOEx1dTMzc3BiRS81QkxNNlAxU0dwaklVM0d0eGR3c0I3VkticDh6VmgxVldWMkJzaHNRc3oxWjVoTHZVMlpKVWo2ZlpRT3U1NXdNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1ODAxMDE1CWZpbGU6TS1BZ2VudF8wLjYuNzUrMV94NjRfZW4tVVMubXNpCndleDhEZVpjMUYrK0F6R25LcDNNOTlBSDZFOHlaUFg3R1FGWnEzQW45ZHNWYWxxQThlbWlhSWpTZW1pZWd1bFM0L050WUMxNTMyQU1YT2VlTzE5MERRPT0K",
+      "url": "https://github.com/ducnhung70/M-Agent/releases/download/v0.6.75.1/M-Agent_0.6.75.1_x64_en-US.msi"
+    }
+  }
+}

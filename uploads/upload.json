@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updatedAt": "2026-11-26T15:14:54.940Z",
+  "updatedAt": "2026-11-27T17:53:47.531Z",
   "items": [
     {
       "id": "m-agent-otter-pack",
@@ -30,32 +30,32 @@
     {
       "id": "m-agent-release-mirror",
       "kind": "release-mirror",
-      "version": "0.6.75",
-      "dir": "uploads/release-v0.6.75",
+      "version": "0.6.75.1",
+      "dir": "uploads/release-v0.6.75.1",
       "note": "Copy each file to m-market at publishPath (overwrite).",
       "files": [
         {
           "path": "releases/latest/latest.json",
-          "size": 4019,
-          "sha256": "04d289d2daae89c8256e8b90bf092336651aa235d819e2fb80c7421823aac75f",
+          "size": 4012,
+          "sha256": "fd41d7a4847d0c040cd65cbde9fdd974f5f919560cec20e7f1380877de4f86d7",
           "publishPath": "releases/latest/latest.json"
         },
         {
-          "path": "releases/v0.6.75/latest.json",
-          "size": 4019,
-          "sha256": "04d289d2daae89c8256e8b90bf092336651aa235d819e2fb80c7421823aac75f",
-          "publishPath": "releases/v0.6.75/latest.json"
+          "path": "releases/v0.6.75.1/latest.json",
+          "size": 4012,
+          "sha256": "fd41d7a4847d0c040cd65cbde9fdd974f5f919560cec20e7f1380877de4f86d7",
+          "publishPath": "releases/v0.6.75.1/latest.json"
         },
         {
           "path": "changelog/latest-en.json",
-          "size": 4019,
-          "sha256": "04d289d2daae89c8256e8b90bf092336651aa235d819e2fb80c7421823aac75f",
+          "size": 4012,
+          "sha256": "fd41d7a4847d0c040cd65cbde9fdd974f5f919560cec20e7f1380877de4f86d7",
           "publishPath": "changelog/latest-en.json"
         },
         {
           "path": "changelog/releases-en.json",
-          "size": 345948,
-          "sha256": "9e9411d865647aed139ebf57e0437cd0135ef9cfda2f9189e5305c055e534b8d",
+          "size": 351508,
+          "sha256": "77be050568f7bf033b76aa4fd4ef0310fd0f70c03a88a31448763196a2e6bc84",
           "publishPath": "changelog/releases-en.json"
         }
       ]
